@@ -49,6 +49,12 @@
             TextColor="AntiqueWhite"
            HorizontalOptions="Center" 
            Clicked="OpenGallery"/>
+        <Button Text="Search Airbnb"
+                VerticalOptions="Center" 
+            BackgroundColor="Black"
+            TextColor="AntiqueWhite"
+           HorizontalOptions="Center" 
+           Clicked="OpenList1"/>
     </StackLayout>
   
 

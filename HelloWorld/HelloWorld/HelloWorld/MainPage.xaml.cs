@@ -57,5 +57,9 @@ namespace HelloWorld
         {
             await Navigation.PushAsync(new ImageGallery());
         }
+        public async void OpenList1(Object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ListEx1());
+        }
     }
 }
