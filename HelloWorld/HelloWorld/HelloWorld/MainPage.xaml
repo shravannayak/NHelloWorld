@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HelloWorld"
+             x:Class="HelloWorld.MainPage">
+    <StackLayout>
+        <Label Text="Welcome to Home Page" BackgroundColor="yellow" TextColor="Red"
+                          HorizontalOptions="Center"/>
+        <Button Text="Quotes Page" 
+           VerticalOptions="Center" 
+            BackgroundColor="Black"
+            TextColor="AntiqueWhite"
+           HorizontalOptions="Center" 
+           Clicked="OpenQuotes" />
+        <Button Text="Stack Login page"
+                VerticalOptions="Center" 
+            BackgroundColor="Black"
+            TextColor="AntiqueWhite"
+           HorizontalOptions="Center" 
+           Clicked="OpenLStack"/>
+        <Button Text="Stack Insta page"
+                VerticalOptions="Center" 
+            BackgroundColor="Black"
+            TextColor="AntiqueWhite"
+           HorizontalOptions="Center" 
+           Clicked="OpenIStack"/>
+        <Button Text="Grid page"
+                VerticalOptions="Center" 
+            BackgroundColor="Black"
+            TextColor="AntiqueWhite"
+           HorizontalOptions="Center" 
+           Clicked="OpenGrid"/>
+        <Button Text="Absolute page 1"
+                VerticalOptions="Center" 
+            BackgroundColor="Black"
+            TextColor="AntiqueWhite"
+           HorizontalOptions="Center" 
+           Clicked="OpenAbsolute1"/>
+        <Button Text="Absolute page 2"
+                VerticalOptions="Center" 
+            BackgroundColor="Black"
+            TextColor="AntiqueWhite"
+           HorizontalOptions="Center" 
+           Clicked="OpenAbsolute2"/>
+        <Button Text="Image Gallery"
+                VerticalOptions="Center" 
+            BackgroundColor="Black"
+            TextColor="AntiqueWhite"
+           HorizontalOptions="Center" 
+           Clicked="OpenGallery"/>
+    </StackLayout>
+</ContentPage>
+    
+
