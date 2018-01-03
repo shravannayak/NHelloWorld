@@ -16,22 +16,30 @@ namespace HelloWorld
         public ImageGallery ()
 		{
 			InitializeComponent ();
-            img.Source = "http://lorempixel.com/1920/1080/city/1";
-            //img.CachingEnabled = "false";
+
+            LoadImage();
+        }
+        void LoadImage()
+        {
+            img.Source = new UriImageSource
+            {
+                Uri = new Uri(String.Format("http://lorempixel.com/1920/1080/city/{0}", id)),
+                CachingEnabled = false
+            };
         }
         public void PrevClick(Object sender,EventArgs e)
         {
             id--;
-            if (id < 1)
+            if (id == 1)
                 id = 10;
-            img.Source = "http://lorempixel.com/1920/1080/city/"+id;
+            LoadImage();
         }
         public void NextClick(Object sender, EventArgs e)
         {
             id++;
-            if (id > 10)
+            if (id == 11)
                 id = 1;
-            img.Source = "http://lorempixel.com/1920/1080/city/" + id;
+            LoadImage();
         }
     }
 }

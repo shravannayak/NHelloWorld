@@ -713,11 +713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Xamarin\\HelloWorld\\HelloWorld\\HelloWorld.Android\\HelloWorld.Android.csproj",
+      "projectUniqueName": "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\HelloWorld.Android.csproj",
       "projectName": "HelloWorld.Android",
-      "projectPath": "F:\\Xamarin\\HelloWorld\\HelloWorld\\HelloWorld.Android\\HelloWorld.Android.csproj",
+      "projectPath": "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\HelloWorld.Android.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "F:\\Xamarin\\HelloWorld\\HelloWorld\\HelloWorld.Android\\obj\\",
+      "outputPath": "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -738,8 +738,8 @@
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "F:\\Xamarin\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
-              "projectPath": "F:\\Xamarin\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj"
+            "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+              "projectPath": "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj"
             }
           }
         }

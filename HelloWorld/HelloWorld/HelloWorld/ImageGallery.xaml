@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.ImageGallery">
     <AbsoluteLayout BackgroundColor="Black">
-        <Button Text="Previous" Clicked="PrevClick" TextColor="White" AbsoluteLayout.LayoutBounds="0.05,0.05,100,50" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Image x:Name="img" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
         <ActivityIndicator  IsRunning="{Binding Source={x:Reference img},Path=IsLoading}" Color="White" AbsoluteLayout.LayoutBounds="0.5,0.05,50,50" AbsoluteLayout.LayoutFlags="PositionProportional"/>
-        <Button Text="Next" Clicked="NextClick" TextColor="White" AbsoluteLayout.LayoutBounds="0.95,0.05,100,50" AbsoluteLayout.LayoutFlags="PositionProportional"/>
-        <Image x:Name="img" AbsoluteLayout.LayoutBounds="0,0.25,1,1" AbsoluteLayout.LayoutFlags="All"/>
+        <Button Image="left.png" BackgroundColor="Black" Clicked="PrevClick" TextColor="White" AbsoluteLayout.LayoutBounds="0.05,0.05,100,50" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Button Image="right.png" BackgroundColor="Black" Clicked="NextClick" TextColor="White" AbsoluteLayout.LayoutBounds="0.95,0.05,100,50" AbsoluteLayout.LayoutFlags="PositionProportional"/>
     </AbsoluteLayout>
 </ContentPage>

@@ -760,11 +760,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Xamarin\\HelloWorld\\HelloWorld\\HelloWorld.iOS\\HelloWorld.iOS.csproj",
+      "projectUniqueName": "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.iOS\\HelloWorld.iOS.csproj",
       "projectName": "HelloWorld.iOS",
-      "projectPath": "F:\\Xamarin\\HelloWorld\\HelloWorld\\HelloWorld.iOS\\HelloWorld.iOS.csproj",
+      "projectPath": "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.iOS\\HelloWorld.iOS.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "F:\\Xamarin\\HelloWorld\\HelloWorld\\HelloWorld.iOS\\obj\\",
+      "outputPath": "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -785,8 +785,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "F:\\Xamarin\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
-              "projectPath": "F:\\Xamarin\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj"
+            "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+              "projectPath": "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj"
             }
           }
         }

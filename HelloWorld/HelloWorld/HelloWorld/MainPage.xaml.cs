@@ -12,7 +12,22 @@ namespace HelloWorld
 		public MainPage()
 		{
             InitializeComponent();
+            //list1.ItemsSource = new List<String>
+            //{
+            //    "stack1",
+            //    "Grid1"
+            //};
         }
+        //public void HandleSelect(Object sender,EventArgs e)
+        //{
+        //    var txt = (String)list1.SelectedItem;
+        //    if (String.Compare(txt, "stack1") == 0)
+        //        Detail= new NavigationPage(new stack1());
+        //    else if (String.Compare(txt, "Grid1") == 0)
+        //        Detail=new NavigationPage(new Grid1());
+
+
+        //}
         public async void OpenQuotes (Object sender,EventArgs e)
         {
             await Navigation.PushAsync(new QuotesPage());
