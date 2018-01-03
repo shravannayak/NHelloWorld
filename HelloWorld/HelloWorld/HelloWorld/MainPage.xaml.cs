@@ -7,17 +7,22 @@ using Xamarin.Forms;
 
 namespace HelloWorld
 {
-	public partial class MainPage : ContentPage
+	public partial class MainPage : TabbedPage
 	{
 		public MainPage()
 		{
             InitializeComponent();
+            
+            //NavigationPage.HasNavigationBarProperty(this, false);
+            //NavigationPage.SetHideNavigationBar(MainPage, true);
             //list1.ItemsSource = new List<String>
             //{
             //    "stack1",
             //    "Grid1"
             //};
         }
+
+        public object NavigationController { get; }
         //public void HandleSelect(Object sender,EventArgs e)
         //{
         //    var txt = (String)list1.SelectedItem;
@@ -28,7 +33,7 @@ namespace HelloWorld
 
 
         //}
-        public async void OpenQuotes (Object sender,EventArgs e)
+        /*public async void OpenQuotes (Object sender,EventArgs e)
         {
             await Navigation.PushAsync(new QuotesPage());
             //IsPresented = false;
@@ -60,6 +65,6 @@ namespace HelloWorld
         public async void OpenList1(Object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ListEx1());
-        }
+        }*/
     }
 }

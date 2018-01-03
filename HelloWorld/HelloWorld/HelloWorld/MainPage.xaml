@@ -1,10 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-
-        <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:HelloWorld"
-             x:Class="HelloWorld.MainPage">
-    <StackLayout>
+             x:Class="HelloWorld.MainPage"
+             >
+    <local:absolute1 Title="absolute1"/>
+    <local:absolute2 Title="absolute2"/>
+    <local:Grid1 Title="Grid1"/>
+    <local:ImageGallery Title="ImageGallery"/>
+    <local:ListEx1 Title="ListEx1"/>
+    <local:QuotesPage Title="QuotesPage"/>
+    <local:stack1 Title="stack1"/>
+    <local:stack2 Title="stack2"/>
+    <!--<StackLayout>
         <Label Text="Welcome to Home Page" BackgroundColor="yellow" TextColor="Red"
                           HorizontalOptions="Center"/>
         <Button Text="Quotes Page" 
@@ -55,10 +63,8 @@
             TextColor="AntiqueWhite"
            HorizontalOptions="Center" 
            Clicked="OpenList1"/>
-    </StackLayout>
-  
-
-        </ContentPage>
+    </StackLayout>-->
+</TabbedPage>
     
     
 

@@ -13,11 +13,11 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage())
-            {
+            MainPage = new MainPage();
+            /*{
                 BarBackgroundColor = Color.Gray,
                 BarTextColor=Color.White
-            };
+            };*/
             //MainPage = new MasterDetailPage1();
 		}
 
