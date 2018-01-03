@@ -11,7 +11,7 @@
 namespace HelloWorld {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("F:\\Xamarin\\HelloWorld\\HelloWorld\\HelloWorld\\stack1.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\stack1.xaml")]
     public partial class stack1 : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

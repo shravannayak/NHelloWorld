@@ -34,4 +34,5 @@ F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstan
 F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.AssemblyInfo.cs
 F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.dll
 F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.pdb
-F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.ListEx1.xaml.g.cs
+F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.InstaMaster1.xaml.g.cs
+F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.InstaDetail1.xaml.g.cs

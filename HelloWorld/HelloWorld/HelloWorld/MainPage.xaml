@@ -8,10 +8,10 @@
     <local:absolute2 Title="absolute2"/>
     <local:Grid1 Title="Grid1"/>
     <local:ImageGallery Title="ImageGallery"/>
-    <local:ListEx1 Title="ListEx1"/>
     <local:QuotesPage Title="QuotesPage"/>
     <local:stack1 Title="stack1"/>
     <local:stack2 Title="stack2"/>
+    <local:InstaMaster1 Title="Search"/>
     <!--<StackLayout>
         <Label Text="Welcome to Home Page" BackgroundColor="yellow" TextColor="Red"
                           HorizontalOptions="Center"/>

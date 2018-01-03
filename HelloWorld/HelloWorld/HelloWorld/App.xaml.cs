@@ -13,7 +13,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new InstaMaster1());
             /*{
                 BarBackgroundColor = Color.Gray,
                 BarTextColor=Color.White

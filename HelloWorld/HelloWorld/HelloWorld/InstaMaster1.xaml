@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.InstaMaster1"
+                  Title="MasterPage">
+    <MasterDetailPage.Master>
+        <ContentPage >
+            <StackLayout>
+                <SearchBar Placeholder="Search..." TextChanged="Search"/>
+                <ListView x:Name="listView" HasUnevenRows="True" IsPullToRefreshEnabled="True" Refreshing="HandleRefresh"
+                  ItemSelected="Selected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal" Padding="5">
+                                    <Image Source="{Binding ImageUrl}"/>
+                                    <StackLayout HorizontalOptions="StartAndExpand">
+                                        <Label Text="{Binding Name}"/>
+                                        <Label Text="{Binding Status}" TextColor="Gray"/>
+                                    </StackLayout>
+                                    <Button Text="Follow"/>
+                                </StackLayout>
+                                <ViewCell.ContextActions>
+                                    <!--<MenuItem Text="Call" Clicked="CallClicked" CommandParameter="{Binding .}"/>-->
+                                    <MenuItem Text="Delete" Clicked="DeleteClicked" IsDestructive="True" CommandParameter="{Binding .}"/>
+                                </ViewCell.ContextActions>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+
+        <NavigationPage>
+            <x:Arguments>
+                <ContentPage Title="This is a view"></ContentPage>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

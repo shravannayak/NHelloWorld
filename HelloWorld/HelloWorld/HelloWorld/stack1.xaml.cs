@@ -15,6 +15,11 @@ namespace HelloWorld
 		public stack1 ()
 		{
 			InitializeComponent ();
+
 		}
+        async public void LoginClicked(Object sender,EventArgs e)
+        {
+            await DisplayActionSheet("Login", "Cancel", "Logout", "New user", "Registration", "Home");
+        }
 	}
 }
