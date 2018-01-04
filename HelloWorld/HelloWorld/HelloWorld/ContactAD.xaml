@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.ContactAD">
+    <TableView>
+        <TableRoot>
+            <TableSection Title="NAME">
+                <EntryCell Text="FirstName"/>
+                <EntryCell Text="LastName"/>
+            </TableSection>
+            <TableSection Title="CONTACT">
+                <EntryCell Text="Phone" Keyboard="Numeric"/>
+                <EntryCell Text="Email" Keyboard="Email"/>
+            </TableSection>
+            <TableSection Title="OTHER">
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="15,0">
+                        <Label Text="Blocked" VerticalOptions="Center"/>
+                        <Switch IsToggled="False" VerticalOptions="Center" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+                </ViewCell>
+            </TableSection>
+            <TableSection Title=" ">
+                <ViewCell>
+                <Button Text="Save"/>
+                </ViewCell>
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>

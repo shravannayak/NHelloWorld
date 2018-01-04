@@ -13,7 +13,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new ContactPage());
             /*{
                 BarBackgroundColor = Color.Gray,
                 BarTextColor=Color.White

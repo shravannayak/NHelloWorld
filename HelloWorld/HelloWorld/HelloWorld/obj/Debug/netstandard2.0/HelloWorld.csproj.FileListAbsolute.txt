@@ -34,7 +34,8 @@ F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstan
 F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.AssemblyInfo.cs
 F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.dll
 F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.pdb
-F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.InstaMaster1.xaml.g.cs
-F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.InstaDetail1.xaml.g.cs
 F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.FormsPage.xaml.g.cs
 F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.Extensions.DateCell.xaml.g.cs
+F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.ContactMethodsPage.xaml.g.cs
+F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.ContactAD.xaml.g.cs
+F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.ContactPage.xaml.g.cs

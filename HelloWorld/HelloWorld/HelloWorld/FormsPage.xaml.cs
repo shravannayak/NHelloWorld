@@ -17,7 +17,16 @@ namespace HelloWorld
         {
             InitializeComponent();
         }
-        
-	}
+        public void Tapp(Object sender, EventArgs e)
+        {
+            var page = new ContactMethodsPage();
+            page.ContactMethods.ItemSelected += (source, args) =>
+              {
+                  contactMethod.Text = args.SelectedItem.ToString();
+                  Navigation.PopAsync();
+              };
+            Navigation.PushAsync(page);
+        }
+    }
     
 }

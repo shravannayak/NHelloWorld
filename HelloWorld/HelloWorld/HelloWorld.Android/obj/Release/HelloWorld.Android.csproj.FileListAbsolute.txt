@@ -84,6 +84,10 @@ F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Relea
 F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\Xamarin.Forms.Core.dll.mdb
 F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\Xamarin.Forms.Xaml.dll.mdb
+F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\res\drawable\plus.png
+F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\res\drawable-hdpi\plus.png
+F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\res\drawable-xhdpi\plus.png
+F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\res\drawable-xxhdpi\plus.png
 F:\Xamarin\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\bin\Release\HelloWorld.Android.dll
 bin\Release\FormsViewGroup.dll.mdb
 bin\Release\Xamarin.Forms.Core.dll.mdb
