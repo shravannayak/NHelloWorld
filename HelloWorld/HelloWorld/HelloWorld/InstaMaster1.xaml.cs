@@ -58,7 +58,10 @@ namespace HelloWorld
         public void Selected(Object sender,SelectedItemChangedEventArgs e)
         {
             var contact = e.SelectedItem as Contact;
-            Navigation.PushAsync(new InstaDetail1(contact));
+           
+            
+             Navigation.PushAsync(new InstaDetail1(contact));
+           
         }
     }
 }
