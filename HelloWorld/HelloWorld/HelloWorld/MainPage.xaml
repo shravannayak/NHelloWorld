@@ -11,7 +11,7 @@
     <local:QuotesPage Title="QuotesPage"/>
     <local:stack1 Title="stack1"/>
     <local:stack2 Title="stack2"/>
-    <local:InstaMaster1 Title="Search"/>
+    <local:FormsPage Title="Forms"/>
     <!--<StackLayout>
         <Label Text="Welcome to Home Page" BackgroundColor="yellow" TextColor="Red"
                           HorizontalOptions="Center"/>
