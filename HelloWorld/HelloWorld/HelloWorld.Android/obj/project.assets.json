@@ -707,26 +707,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+    "C:\\Users\\Shravan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\HelloWorld.Android.csproj",
+      "projectUniqueName": "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\HelloWorld.Android.csproj",
       "projectName": "HelloWorld.Android",
-      "projectPath": "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\HelloWorld.Android.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\obj\\",
+      "projectPath": "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\HelloWorld.Android.csproj",
+      "packagesPath": "C:\\Users\\Shravan\\.nuget\\packages\\",
+      "outputPath": "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\Shravan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid71"
@@ -738,8 +733,8 @@
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
-              "projectPath": "F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj"
+            "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+              "projectPath": "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj"
             }
           }
         }

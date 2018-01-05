@@ -11,8 +11,7 @@
 namespace HelloWorld.Extensions {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\Extensions\\DateCel" +
-        "l.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\Extensions\\DateCell.xaml")]
     public partial class DateCell : global::Xamarin.Forms.ViewCell {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

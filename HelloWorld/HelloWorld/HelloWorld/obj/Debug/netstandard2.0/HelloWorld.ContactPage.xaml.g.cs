@@ -11,7 +11,7 @@
 namespace HelloWorld {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("F:\\Xamarin\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\ContactPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\ContactPage.xaml")]
     public partial class ContactPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
