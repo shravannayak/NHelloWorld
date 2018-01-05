@@ -5,5 +5,15 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="New" Order="Primary" Clicked="NewClicked"/>
     </ContentPage.ToolbarItems>
-   
+    <ListView x:Name="listView" ItemSelected="ItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding FirstName}">
+                    <TextCell.ContextActions>
+                        <MenuItem Text="Delete" Clicked="DeleteClicked" IsDestructive="True" CommandParameter="{Binding .}"/>
+                    </TextCell.ContextActions>
+                </TextCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>

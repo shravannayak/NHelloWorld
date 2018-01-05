@@ -5,12 +5,12 @@
     <TableView>
         <TableRoot>
             <TableSection Title="NAME">
-                <EntryCell Text="FirstName"/>
-                <EntryCell Text="LastName"/>
+                <EntryCell Text="FirstName" x:Name="first"/>
+                <EntryCell Text="LastName" x:Name="last"/>
             </TableSection>
             <TableSection Title="CONTACT">
-                <EntryCell Text="Phone" Keyboard="Numeric"/>
-                <EntryCell Text="Email" Keyboard="Email"/>
+                <EntryCell Text="Phone" Keyboard="Numeric" x:Name="phone"/>
+                <EntryCell Text="Email" Keyboard="Email" x:Name="email"/>
             </TableSection>
             <TableSection Title="OTHER">
                 <ViewCell>
@@ -22,7 +22,7 @@
             </TableSection>
             <TableSection Title=" ">
                 <ViewCell>
-                <Button Text="Save"/>
+                <Button Text="Save" Clicked="ContactAdded"/>
                 </ViewCell>
             </TableSection>
         </TableRoot>
