@@ -5,6 +5,11 @@
              BackgroundColor="#127ac7">
 
     <StackLayout   VerticalOptions="Center">
+        <Label Text="Hello"
+               TextColor="White"
+                HorizontalOptions="Center" 
+                FontSize="18"
+                FontAttributes="Bold"/>
         <Label Text="Welcome to Xamarin"
                TextColor="White"
                 HorizontalOptions="Center" 
