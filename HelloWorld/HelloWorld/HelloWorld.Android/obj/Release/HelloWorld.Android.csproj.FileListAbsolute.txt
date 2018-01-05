@@ -136,7 +136,6 @@ E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\andro
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\Xamarin.Forms.Xaml.dll.mdb
 bin\Release\Mono.Android.pdb
-E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\bin\Release\HelloWorld.Android.dll
 bin\Release\FormsViewGroup.dll.mdb
 bin\Release\Xamarin.Forms.Core.dll.mdb
 bin\Release\Xamarin.Forms.Platform.Android.dll.mdb

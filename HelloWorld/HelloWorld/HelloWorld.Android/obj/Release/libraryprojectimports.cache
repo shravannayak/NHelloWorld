@@ -20,6 +20,11 @@
     <Jar>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\9\jl\bin\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\27\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\28\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\29\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\30\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\31\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\8\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\11\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\12\jl\res</ResolvedResourceDirectory>
@@ -29,10 +34,20 @@
     <ResolvedResourceDirectory>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\17\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Release\lp\27\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\lp\28\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\lp\29\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\lp\30\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\lp\31\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Release\lp\12\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\27.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\28.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\29.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\30.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\31.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\8.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\11.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\12.stamp</ResolvedResourceDirectoryStamp>
