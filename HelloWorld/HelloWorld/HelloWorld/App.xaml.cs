@@ -15,7 +15,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-            MainPage = new NewPracticePage();
+            MainPage = new NewPage();
             /*{
                 BarBackgroundColor = Color.Gray,
                 BarTextColor=Color.White

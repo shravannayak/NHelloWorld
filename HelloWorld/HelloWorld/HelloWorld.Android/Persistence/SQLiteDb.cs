@@ -5,7 +5,7 @@ using Xamarin.Forms;
 using HelloWorld.Droid;
 using System.Runtime.CompilerServices;
 
-[assembly: Dependency(typeof(SQLiteDb))]
+[assembly: Xamarin.Forms.Dependency(typeof(SQLiteDb))]
 
 namespace HelloWorld.Droid
 {
