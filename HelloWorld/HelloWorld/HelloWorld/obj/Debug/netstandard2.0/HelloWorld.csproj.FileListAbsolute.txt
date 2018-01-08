@@ -65,3 +65,5 @@ E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.csprojResolveAssemblyReference.cache
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.NewPage.xaml.g.cs
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.RestfulServicePage.xaml.g.cs
+E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.Views.MovieDetailsPage.xaml.g.cs
+E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.Views.MoviesPage.xaml.g.cs

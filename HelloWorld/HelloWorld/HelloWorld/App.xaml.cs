@@ -15,7 +15,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-            MainPage = new RestfulServicePage();
+            MainPage = new NavigationPage(new MoviesPage());
             /*{
                 BarBackgroundColor = Color.Gray,
                 BarTextColor=Color.White
