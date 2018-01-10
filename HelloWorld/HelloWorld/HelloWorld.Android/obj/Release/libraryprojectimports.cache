@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
-    <Jar>obj\Release\lp\0\jl\formsviewgroup.jar</Jar>
-    <Jar>obj\Release\lp\13\jl\support-annotations.jar</Jar>
     <Jar>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\0\jl\formsviewgroup.jar</Jar>
     <Jar>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\12\jl\bin\classes.jar</Jar>
     <Jar>E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\lp\13\jl\support-annotations.jar</Jar>
