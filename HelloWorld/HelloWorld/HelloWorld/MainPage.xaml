@@ -4,14 +4,15 @@
              xmlns:local="clr-namespace:HelloWorld"
              x:Class="HelloWorld.MainPage"
              >
-    <local:absolute1 Title="absolute1"/>
-    <local:absolute2 Title="absolute2"/>
-    <local:Grid1 Title="Grid1"/>
-    <local:ImageGallery Title="ImageGallery"/>
-    <local:QuotesPage Title="QuotesPage"/>
-    <local:stack1 Title="stack1"/>
-    <local:stack2 Title="stack2"/>
-    <local:FormsPage Title="Forms"/>
+    <local:absolute1 Title="1"/>
+    <local:absolute2 Title="2"/>
+    <local:Grid1 Title="3"/>
+    <local:ImageGallery Title="4"/>
+    <local:QuotesPage Title="5"/>
+    <local:stack1 Title="6"/>
+    <local:stack2 Title="7"/>
+    <local:FormsPage Title="8"/>
+    <local:SliderText Title="9"/>
     <!--<StackLayout>
         <Label Text="Welcome to Home Page" BackgroundColor="yellow" TextColor="Red"
                           HorizontalOptions="Center"/>
