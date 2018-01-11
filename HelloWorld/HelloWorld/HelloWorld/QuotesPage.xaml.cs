@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Syncfusion.SfAutoComplete.XForms;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -13,12 +15,27 @@ namespace HelloWorld
 	public partial class QuotesPage : ContentPage
 	{
         public string[] str = new string[] { "One", "Two", "Three", "Four", "Five", "Six" };
+        public ObservableCollection<string> countryNames = new ObservableCollection<string>
+            {
+                "Uganda",
+                "Ukraine",
+                "Canada",
+                "United Arab Emirates",
+                "France",
+                "United Kingdom",
+                "China",
+                "United States",
+                "Japan",
+            };
         int i = 0;
-        public QuotesPage ()
-		{
-			InitializeComponent ();
+        public QuotesPage()
+        {
+            
+            InitializeComponent ();
             quote.Text = str[i];
-		}
+            
+            auto.DataSource = countryNames;
+        }
         
         public void Handle_clicked(Object sender,EventArgs e)
         {

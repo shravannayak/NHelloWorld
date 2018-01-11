@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HelloWorld.QuotesPage">
+             x:Class="HelloWorld.QuotesPage"
+             xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms">
 
     <StackLayout>
         <Button Text="Next" Clicked="Handle_clicked"
@@ -20,5 +21,9 @@
 				Path=Value}"
                x:Name="quote"
                 />
+        <autocomplete:SfAutoComplete x:Name="auto" Watermark="Text here" AutoCompleteMode="Suggest" SuggestionMode="StartsWith"
+                                     ShowSuggestionsOnFocus="True"/>
+        
+        
     </StackLayout>
 </ContentPage>

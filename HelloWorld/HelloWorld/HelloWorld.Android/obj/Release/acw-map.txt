@@ -6,6 +6,22 @@ HelloWorld.Droid.SplashActivity, HelloWorld.Android;md5fd8ed8046cea676d1ed0ce1fd
 HelloWorld.Droid.SplashActivity, HelloWorld.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fd8ed8046cea676d1ed0ce1fd728c386.SplashActivity
 HelloWorld.Droid.SplashActivity;md5fd8ed8046cea676d1ed0ce1fd728c386.SplashActivity
 helloworld.droid.SplashActivity;md5fd8ed8046cea676d1ed0ce1fd728c386.SplashActivity
+Com.Syncfusion.Autocomplete.SfAutoComplete, Syncfusion.SfAutoComplete.Android;md53a21ac63cd1f5d397f74a77844dbf16e.SfAutoComplete
+Com.Syncfusion.Autocomplete.SfAutoComplete, Syncfusion.SfAutoComplete.Android, Version=15.4451.0.20, Culture=neutral, PublicKeyToken=null;md53a21ac63cd1f5d397f74a77844dbf16e.SfAutoComplete
+Com.Syncfusion.Autocomplete.SfAutoComplete;md53a21ac63cd1f5d397f74a77844dbf16e.SfAutoComplete
+com.syncfusion.autocomplete.SfAutoComplete;md53a21ac63cd1f5d397f74a77844dbf16e.SfAutoComplete
+Com.Syncfusion.Autocomplete.ItemAdapter, Syncfusion.SfAutoComplete.Android;md53a21ac63cd1f5d397f74a77844dbf16e.ItemAdapter
+Com.Syncfusion.Autocomplete.ItemAdapter, Syncfusion.SfAutoComplete.Android, Version=15.4451.0.20, Culture=neutral, PublicKeyToken=null;md53a21ac63cd1f5d397f74a77844dbf16e.ItemAdapter
+Com.Syncfusion.Autocomplete.ItemAdapter;md53a21ac63cd1f5d397f74a77844dbf16e.ItemAdapter
+com.syncfusion.autocomplete.ItemAdapter;md53a21ac63cd1f5d397f74a77844dbf16e.ItemAdapter
+Com.Syncfusion.Autocomplete.ViewHolder, Syncfusion.SfAutoComplete.Android;md53a21ac63cd1f5d397f74a77844dbf16e.ViewHolder
+Com.Syncfusion.Autocomplete.ViewHolder, Syncfusion.SfAutoComplete.Android, Version=15.4451.0.20, Culture=neutral, PublicKeyToken=null;md53a21ac63cd1f5d397f74a77844dbf16e.ViewHolder
+Com.Syncfusion.Autocomplete.ViewHolder;md53a21ac63cd1f5d397f74a77844dbf16e.ViewHolder
+com.syncfusion.autocomplete.ViewHolder;md53a21ac63cd1f5d397f74a77844dbf16e.ViewHolder
+Syncfusion.SfAutoComplete.XForms.Droid.SfAutoCompleteRenderer, Syncfusion.SfAutoComplete.XForms.Android;md51a940442b97158f8f84813c2e78eb4cb.SfAutoCompleteRenderer
+Syncfusion.SfAutoComplete.XForms.Droid.SfAutoCompleteRenderer, Syncfusion.SfAutoComplete.XForms.Android, Version=15.4451.0.20, Culture=neutral, PublicKeyToken=null;md51a940442b97158f8f84813c2e78eb4cb.SfAutoCompleteRenderer
+Syncfusion.SfAutoComplete.XForms.Droid.SfAutoCompleteRenderer;md51a940442b97158f8f84813c2e78eb4cb.SfAutoCompleteRenderer
+syncfusion.sfautocomplete.xforms.droid.SfAutoCompleteRenderer;md51a940442b97158f8f84813c2e78eb4cb.SfAutoCompleteRenderer
 Android.Support.V4.Widget.SearchViewCompat/IOnCloseListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat+IOnCloseListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat.IOnCloseListenerImplementor;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
