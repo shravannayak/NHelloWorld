@@ -9,7 +9,8 @@
                 Style="width:50;height:50"
                 HorizontalOptions="Center"
                 TextColor="White"
-                BackgroundColor="Red"/>
+                BackgroundColor="Red"
+                x:Name="btn"/>
         <Label Text="{Binding 
 				Source={x:Reference slider}, 
 				Path=Value, 
