@@ -13,9 +13,13 @@ E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\andro
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\SQLitePCLRaw.core.dll
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
+E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\Syncfusion.Compression.Portable.dll
+E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\Syncfusion.Pdf.Portable.dll
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\Syncfusion.SfAutoComplete.Android.dll
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\Syncfusion.SfAutoComplete.XForms.Android.dll
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\Syncfusion.SfAutoComplete.XForms.dll
+E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\Syncfusion.SfPdfViewer.XForms.Android.dll
+E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\Syncfusion.SfPdfViewer.XForms.dll
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\System.Core.dll
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\System.dll
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Release\android\assets\System.IO.Compression.dll

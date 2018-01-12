@@ -189,6 +189,27 @@
           "lib/MonoAndroid/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Xamarin.Compression/15.4.0.20": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.Compression.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.Compression.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Pdf/15.4.0.20": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Compression": "15.4.0.20"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.Pdf.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.Pdf.Portable.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.SfAutoComplete/15.4.0.20": {
         "type": "package",
         "dependencies": {
@@ -203,6 +224,21 @@
           "lib/MonoAndroid10/Syncfusion.SfAutoComplete.Android.dll": {},
           "lib/MonoAndroid10/Syncfusion.SfAutoComplete.XForms.Android.dll": {},
           "lib/MonoAndroid10/Syncfusion.SfAutoComplete.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfPdfViewer/15.4.0.20": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Pdf": "15.4.0.20",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.SfPdfViewer.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfPdfViewer.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.SfPdfViewer.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfPdfViewer.XForms.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -984,7 +1020,10 @@
         "dependencies": {
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "10.0.3",
+          "Syncfusion.Xamarin.Compression": "15.4.0.20",
+          "Syncfusion.Xamarin.Pdf": "15.4.0.20",
           "Syncfusion.Xamarin.SfAutoComplete": "15.4.0.20",
+          "Syncfusion.Xamarin.SfPdfViewer": "15.4.0.20",
           "Xamarin.Forms": "2.5.0.122203",
           "sqlite-net-pcl": "1.4.118"
         },
@@ -1423,6 +1462,44 @@
         "sqlitepclraw.provider.e_sqlite3.android.nuspec"
       ]
     },
+    "Syncfusion.Xamarin.Compression/15.4.0.20": {
+      "sha512": "XOZ7NXksqjGVWfrGx7wr/YLzj5fZk2w8P4qw9GS/awB+J+fJfwC6ztvkatBKfEIqUGi6os2cr8kEv2L7Gp/GqA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.compression/15.4.0.20",
+      "files": [
+        "lib/MonoAndroid10/Syncfusion.Compression.Portable.dll",
+        "lib/MonoAndroid10/Syncfusion.Compression.Portable.xml",
+        "lib/Xamarin.iOS10/Syncfusion.Compression.Portable.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Compression.Portable.xml",
+        "lib/netstandard1.0/Syncfusion.Compression.Portable.dll",
+        "lib/netstandard1.0/Syncfusion.Compression.Portable.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Compression.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Compression.Portable.xml",
+        "lib/uap10.0/Syncfusion.Compression.Portable.dll",
+        "lib/uap10.0/Syncfusion.Compression.Portable.xml",
+        "syncfusion.xamarin.compression.15.4.0.20.nupkg.sha512",
+        "syncfusion.xamarin.compression.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Pdf/15.4.0.20": {
+      "sha512": "a1vJfugJD6R6cj6+G0MTLDsyfU9LaZU1reRL0bGeOocGIgBWXbMVvqE5rO7/qNNsFUjZaV79PNJL4x2yklX2ug==",
+      "type": "package",
+      "path": "syncfusion.xamarin.pdf/15.4.0.20",
+      "files": [
+        "lib/MonoAndroid10/Syncfusion.Pdf.Portable.XML",
+        "lib/MonoAndroid10/Syncfusion.Pdf.Portable.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Pdf.Portable.XML",
+        "lib/Xamarin.iOS10/Syncfusion.Pdf.Portable.dll",
+        "lib/netstandard1.0/Syncfusion.Pdf.Portable.XML",
+        "lib/netstandard1.0/Syncfusion.Pdf.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Pdf.Portable.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Pdf.Portable.dll",
+        "lib/uap10.0/Syncfusion.Pdf.Portable.XML",
+        "lib/uap10.0/Syncfusion.Pdf.Portable.dll",
+        "syncfusion.xamarin.pdf.15.4.0.20.nupkg.sha512",
+        "syncfusion.xamarin.pdf.nuspec"
+      ]
+    },
     "Syncfusion.Xamarin.SfAutoComplete/15.4.0.20": {
       "sha512": "xAGknjv24dD0NnJB/vZVmfXfKkL/voBunQHxHvE4wtunknZHzYiRabC6VCZVOo7Zc5rhp9Zuuwm2YcwfquveNw==",
       "type": "package",
@@ -1467,6 +1544,33 @@
         "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xbf",
         "syncfusion.xamarin.sfautocomplete.15.4.0.20.nupkg.sha512",
         "syncfusion.xamarin.sfautocomplete.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfPdfViewer/15.4.0.20": {
+      "sha512": "R17Hp8OAm6FQjIhcum1OO7rGTybCtdm1EWkKBKx2HWoWYF6CuT4T8zV00+2TM8gMprBU/aZCKwJuGqgtgW7LoQ==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfpdfviewer/15.4.0.20",
+      "files": [
+        "lib/MonoAndroid10/Syncfusion.SfPdfViewer.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfPdfViewer.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfPdfViewer.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfPdfViewer.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfPdfViewer.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfPdfViewer.XForms.xml",
+        "lib/netstandard1.0/Syncfusion.SfPdfViewer.XForms.dll",
+        "lib/netstandard1.0/Syncfusion.SfPdfViewer.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfPdfViewer.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfPdfViewer.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfPdfViewer.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfPdfViewer.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfPdfViewer.XForms.UWP/Implementation/UI/ContextMenu.xbf",
+        "lib/uap10.0/Syncfusion.SfPdfViewer.XForms.UWP/Properties/Syncfusion.SfPdfViewer.XForms.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfPdfViewer.XForms.UWP/Syncfusion.SfPdfViewer.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfPdfViewer.XForms.UWP/Themes/Generic.xbf",
+        "lib/uap10.0/Syncfusion.SfPdfViewer.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfPdfViewer.XForms.xml",
+        "syncfusion.xamarin.sfpdfviewer.15.4.0.20.nupkg.sha512",
+        "syncfusion.xamarin.sfpdfviewer.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -4574,7 +4678,9 @@
       "HelloWorld >= 1.0.0",
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 10.0.3",
+      "Syncfusion.Xamarin.Compression >= 15.4.0.20",
       "Syncfusion.Xamarin.SfAutoComplete >= 15.4.0.20",
+      "Syncfusion.Xamarin.SfPdfViewer >= 15.4.0.20",
       "Xamarin.Android.Support.Design >= 25.4.0.2",
       "Xamarin.Android.Support.v4 >= 25.4.0.2",
       "Xamarin.Android.Support.v7.AppCompat >= 25.4.0.2",
@@ -4630,7 +4736,15 @@
             "target": "Package",
             "version": "[10.0.3, )"
           },
+          "Syncfusion.Xamarin.Compression": {
+            "target": "Package",
+            "version": "[15.4.0.20, )"
+          },
           "Syncfusion.Xamarin.SfAutoComplete": {
+            "target": "Package",
+            "version": "[15.4.0.20, )"
+          },
+          "Syncfusion.Xamarin.SfPdfViewer": {
             "target": "Package",
             "version": "[15.4.0.20, )"
           },

@@ -68,7 +68,13 @@
     <PackageReference Include="sqlite-net-pcl">
       <Version>1.4.118</Version>
     </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.Compression">
+      <Version>15.4.0.20</Version>
+    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete">
+      <Version>15.4.0.20</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer">
       <Version>15.4.0.20</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.122203" />

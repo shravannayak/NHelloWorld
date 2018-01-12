@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "84b129e8a6da5eaf412891b12348e5f36c2ad0de"
+    "signature": "4bdd188ff88be2e5010a1c1fc67dd964c3ab56f2"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,7 +12,10 @@
           "Microsoft.Net.Http": "2.2.29",
           "NETStandard.Library": "2.0.0",
           "Newtonsoft.Json": "10.0.3",
+          "Syncfusion.Xamarin.Compression": "15.4.0.20",
+          "Syncfusion.Xamarin.Pdf": "15.4.0.20",
           "Syncfusion.Xamarin.SfAutoComplete": "15.4.0.20",
+          "Syncfusion.Xamarin.SfPdfViewer": "15.4.0.20",
           "Xamarin.Forms": "2.5.0.122203",
           "sqlite-net-pcl": "1.4.118"
         },
@@ -106,12 +109,34 @@
           "lib/netstandard1.1/SQLitePCLRaw.core.dll": {}
         }
       },
+      "Syncfusion.Xamarin.Compression/15.4.0.20": {
+        "runtime": {
+          "lib/netstandard1.0/Syncfusion.Compression.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Pdf/15.4.0.20": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Compression": "15.4.0.20"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Syncfusion.Pdf.Portable.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.SfAutoComplete/15.4.0.20": {
         "dependencies": {
           "Xamarin.Forms": "2.5.0.122203"
         },
         "runtime": {
           "lib/netstandard1.0/Syncfusion.SfAutoComplete.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfPdfViewer/15.4.0.20": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Pdf": "15.4.0.20",
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Syncfusion.SfPdfViewer.XForms.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -621,12 +646,33 @@
       "path": "sqlitepclraw.core/1.1.5",
       "hashPath": "sqlitepclraw.core.1.1.5.nupkg.sha512"
     },
+    "Syncfusion.Xamarin.Compression/15.4.0.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XOZ7NXksqjGVWfrGx7wr/YLzj5fZk2w8P4qw9GS/awB+J+fJfwC6ztvkatBKfEIqUGi6os2cr8kEv2L7Gp/GqA==",
+      "path": "syncfusion.xamarin.compression/15.4.0.20",
+      "hashPath": "syncfusion.xamarin.compression.15.4.0.20.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Pdf/15.4.0.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a1vJfugJD6R6cj6+G0MTLDsyfU9LaZU1reRL0bGeOocGIgBWXbMVvqE5rO7/qNNsFUjZaV79PNJL4x2yklX2ug==",
+      "path": "syncfusion.xamarin.pdf/15.4.0.20",
+      "hashPath": "syncfusion.xamarin.pdf.15.4.0.20.nupkg.sha512"
+    },
     "Syncfusion.Xamarin.SfAutoComplete/15.4.0.20": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-xAGknjv24dD0NnJB/vZVmfXfKkL/voBunQHxHvE4wtunknZHzYiRabC6VCZVOo7Zc5rhp9Zuuwm2YcwfquveNw==",
       "path": "syncfusion.xamarin.sfautocomplete/15.4.0.20",
       "hashPath": "syncfusion.xamarin.sfautocomplete.15.4.0.20.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfPdfViewer/15.4.0.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R17Hp8OAm6FQjIhcum1OO7rGTybCtdm1EWkKBKx2HWoWYF6CuT4T8zV00+2TM8gMprBU/aZCKwJuGqgtgW7LoQ==",
+      "path": "syncfusion.xamarin.sfpdfviewer/15.4.0.20",
+      "hashPath": "syncfusion.xamarin.sfpdfviewer.15.4.0.20.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",

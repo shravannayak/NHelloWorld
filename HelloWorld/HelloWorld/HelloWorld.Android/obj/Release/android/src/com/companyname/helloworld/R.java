@@ -3336,7 +3336,7 @@ containing a value of this type.
         public static final int appbar_scrolling_view_behavior=0x7f090036;
         public static final int bottom_sheet_behavior=0x7f090037;
         public static final int character_counter_pattern=0x7f090038;
-        public static final int library_name=0x7f09003e;
+        public static final int library_name=0x7f090046;
         public static final int mr_button_content_description=0x7f090000;
         public static final int mr_cast_button_connected=0x7f090001;
         public static final int mr_cast_button_connecting=0x7f090002;
@@ -3364,6 +3364,14 @@ containing a value of this type.
         public static final int path_password_eye_mask_visible=0x7f09003c;
         public static final int path_password_strike_through=0x7f09003d;
         public static final int search_menu_title=0x7f090028;
+        public static final int sfpdfviewer_copy=0x7f09003e;
+        public static final int sfpdfviewer_highlight=0x7f09003f;
+        public static final int sfpdfviewer_hyperlink_cancel=0x7f090045;
+        public static final int sfpdfviewer_hyperlink_message=0x7f090043;
+        public static final int sfpdfviewer_hyperlink_open=0x7f090044;
+        public static final int sfpdfviewer_hyperlink_title=0x7f090042;
+        public static final int sfpdfviewer_strikethrough=0x7f090041;
+        public static final int sfpdfviewer_underline=0x7f090040;
         public static final int status_bar_notification_info_overflow=0x7f090029;
     }
     public static final class style {

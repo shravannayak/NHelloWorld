@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HelloWorld.absolute1">
+             x:Class="HelloWorld.absolute1"
+             >
     <AbsoluteLayout>
         <BoxView AbsoluteLayout.LayoutBounds="0,0,1,0.3" AbsoluteLayout.LayoutFlags="All" BackgroundColor="#f7f7f7"/>
         <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,0.3" AbsoluteLayout.LayoutFlags="All">
             <Label Text="$11.95" TextColor="#33353a" FontSize="60" FontAttributes="Bold" HorizontalOptions="Center"/>
-            <Button Text="Add $7.99 Credit" TextColor="White" BackgroundColor="#1695A3" HeightRequest="50" FontSize="15" FontAttributes="Bold"/>
+            <Button Text="   Generate PDF   " TextColor="White" BackgroundColor="#1695A3" HeightRequest="50" FontSize="15" FontAttributes="Bold"
+                    Clicked="BtnClick" x:Name="btn"/>
         </StackLayout>
         
         <StackLayout AbsoluteLayout.LayoutBounds="0,1,1,0.7" AbsoluteLayout.LayoutFlags="All">
@@ -17,5 +19,11 @@ SkyApp by calling mobile and landline
 numbers, or spending SMS, at low-cost rates. 
             </Label>
         </StackLayout>
+        <!--<syncfusion:SfPdfViewer x:Name="pdfViewerControl" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                                AbsoluteLayout.LayoutBounds="0,2,1,1" AbsoluteLayout.LayoutFlags="All"/>
+        
+        xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms"
+        
+        -->
     </AbsoluteLayout>
 </ContentPage>

@@ -7,9 +7,13 @@ SQLitePCLRaw.batteries_v2
 SQLitePCLRaw.core
 SQLitePCLRaw.lib.e_sqlite3
 SQLitePCLRaw.provider.e_sqlite3
+Syncfusion.Compression.Portable
+Syncfusion.Pdf.Portable
 Syncfusion.SfAutoComplete.Android
 Syncfusion.SfAutoComplete.XForms.Android
 Syncfusion.SfAutoComplete.XForms
+Syncfusion.SfPdfViewer.XForms.Android
+Syncfusion.SfPdfViewer.XForms
 System.Net.Http.Extensions
 System.Net.Http.Primitives
 System.Runtime

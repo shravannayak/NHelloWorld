@@ -39,8 +39,8 @@ namespace HelloWorld
         
         async public void Handle_clicked(Object sender,EventArgs e)
         {
-            await btn.ScaleTo(0.5, 3000, Easing.BounceIn);
-            await btn.ScaleTo(1, 3000, Easing.BounceOut);
+            await btn.ScaleTo(0.5, 50, Easing.SpringIn);
+            await btn.ScaleTo(1, 50, Easing.SpringOut);
             i++;
             if (i >= str.Length)
                 i = 0;
