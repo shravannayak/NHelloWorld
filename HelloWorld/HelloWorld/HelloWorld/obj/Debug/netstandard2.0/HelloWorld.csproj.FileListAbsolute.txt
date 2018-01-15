@@ -67,3 +67,4 @@ E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.pdb
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.dll
 E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.pdb
+E:\Github\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.csprojResolveAssemblyReference.cache
