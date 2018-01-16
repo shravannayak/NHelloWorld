@@ -3,6 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.Grid1"
              BackgroundColor="#354242">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                
+                <Setter Property="TextColor" Value="#28282c" />
+                <Setter Property="FontSize" Value="30" />
+                <Setter Property="BackgroundColor" Value="#fff" />
+                <Setter Property="BorderRadius" Value="30" />
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="VerticalOptions" Value="Fill"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
         <Grid Padding="40"
               RowSpacing="10"
               ColumnSpacing="10">
@@ -13,20 +26,28 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-        <Label Grid.Row="0" Grid.ColumnSpan="3" x:Name="LblDisp" HorizontalOptions="Center" FontSize="50" Text="1234"/>
+        <Label Grid.Row="0" Grid.ColumnSpan="4" BackgroundColor="White" x:Name="LblDisp" HorizontalOptions="EndAndExpand" FontSize="50" Text="0"/>
 
-            <Button Grid.Row="1" Grid.Column="0" Text="1" FontSize="30" TextColor ="#28282c" BackgroundColor = "#fff" BorderRadius="30" />
-            <Button Grid.Row="1" Grid.Column="1" Text="2" FontSize="30" TextColor ="#28282c" BackgroundColor = "#fff" BorderRadius = "30" />
-            <Button Grid.Row="1" Grid.Column="2" Text="3" FontSize="30" TextColor ="#28282c" BackgroundColor = "#fff" BorderRadius = "30" />
-            <Button Grid.Row="2" Grid.Column="0" Text="4" FontSize="30" TextColor ="#28282c" BackgroundColor = "#fff" BorderRadius = "30" />
-            <Button Grid.Row="2" Grid.Column="1" Text="5" FontSize="30" TextColor ="#28282c" BackgroundColor = "#fff" BorderRadius = "30" />
-            <Button Grid.Row="2" Grid.Column="2" Text="6" FontSize="30" TextColor ="#28282c" BackgroundColor = "#fff" BorderRadius = "30" />
-            <Button Grid.Row="3" Grid.Column="0" Text="7" FontSize="30" TextColor ="#28282c" BackgroundColor = "#fff" BorderRadius = "30" />
-            <Button Grid.Row="3" Grid.Column="1" Text="8" FontSize="30" TextColor ="#28282c" BackgroundColor = "#fff" BorderRadius = "30" />
-            <Button Grid.Row="3" Grid.Column="2" Text="9" FontSize="30" TextColor ="#28282c" BackgroundColor = "#fff" BorderRadius = "30" />
-            <Button Grid.Row="4" Grid.Column="1" Text="0" FontSize="30" TextColor ="#28282c" BackgroundColor = "#fff" BorderRadius = "30" />
-
-        <Button Grid.Row="5" Grid.ColumnSpan="3" Text="Dial" BackgroundColor="#96ca2d" FontSize="30" TextColor ="#28282c" BorderRadius = "30"/>
+            <Button Clicked="ClearClicked" Grid.Row="1" Grid.Column="0" Text="AC"/>
+            <!--<Button Clicked="DelClicked" Grid.Row="1" Grid.Column="1" Text="DEL"/>-->
+        <Button Clicked="OpClick" Grid.Row="1" Grid.Column="2" Text="/"/>
+        <Button Clicked="OpClick" Grid.Row="1" Grid.Column="3" Text="*"/>
+            <Button Clicked="NumClicked" Grid.Row="2" Grid.Column="0" Text="7"/>
+            <Button Clicked="NumClicked" Grid.Row="2" Grid.Column="1" Text="8"/>
+            <Button Clicked="NumClicked" Grid.Row="2" Grid.Column="2" Text="9"/>
+        <Button Clicked="OpClick" Grid.Row="2" Grid.Column="3" Text="-"/>
+            <Button Clicked="NumClicked" Grid.Row="3" Grid.Column="0" Text="4"/>
+            <Button Clicked="NumClicked" Grid.Row="3" Grid.Column="1" Text="5"/>
+            <Button Clicked="NumClicked" Grid.Row="3" Grid.Column="2" Text="6"/>
+        <Button Clicked="OpClick" Grid.Row="3" Grid.Column="3" Text="+"/>
+            <Button Clicked="NumClicked" Grid.Row="4" Grid.Column="0" Text="1"/>
+            <Button Clicked="NumClicked" Grid.Row="4" Grid.Column="1" Text="2"/>
+            <Button Clicked="NumClicked" Grid.Row="4" Grid.Column="2" Text="3"/>
+            <Button Clicked="CalcClicked" Grid.Row="4" Grid.RowSpan="2" Grid.Column="3" Text="=" />
+            <Button Clicked="NumClicked" Grid.Row="5" Grid.ColumnSpan="2" Text="0"/>
+            <Button Clicked="NumClicked" Grid.Row="5" Grid.Column="2" Text="."/>
+            <!--<Button Grid.Row="5" Grid.ColumnSpan="3" Text="Dial" BackgroundColor="#96ca2d" FontSize="30" TextColor ="#28282c" BorderRadius = "30"/>-->
         </Grid>
 </ContentPage>

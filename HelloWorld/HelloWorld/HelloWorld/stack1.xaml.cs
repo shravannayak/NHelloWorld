@@ -19,7 +19,9 @@ namespace HelloWorld
 		}
         async public void LoginClicked(Object sender,EventArgs e)
         {
+            await progBar.ProgressTo(1, 2000, Easing.Linear);
             await DisplayActionSheet("Login", "Cancel", "Logout", "New user", "Registration", "Home");
+            await progBar.ProgressTo(0, 0, Easing.Linear);
         }
 	}
 }

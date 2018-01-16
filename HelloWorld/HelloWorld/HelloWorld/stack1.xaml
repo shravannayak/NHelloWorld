@@ -21,5 +21,6 @@
                HorizontalOptions="Center"/>
         <Button Text="Login" TextColor="White" BackgroundColor="#1dabf0" Clicked="LoginClicked"/>
         <Button Text="Register" TextColor="White" BackgroundColor="#1dabf0"/>
+        <ProgressBar x:Name="progBar"/>
     </StackLayout>
 </ContentPage>
