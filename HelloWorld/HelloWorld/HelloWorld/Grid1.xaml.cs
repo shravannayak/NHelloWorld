@@ -112,40 +112,29 @@ namespace HelloWorld
         {
             First = 0;Second = 0;Result = 0;op = false; equation = null;
         }
-        /*public void DelClicked(object sender,EventArgs e)
+        public void DelClicked(object sender,EventArgs e)
         {
-            string str;
-            int l;
             len = LblDisp.Text.Length;
-            LblDisp.Text = LblDisp.Text.Substring(0, len-1);
-                
-                
-            equation = equation.Substring(0, len - 1);
-            if (equation.Contains(oper))
+            LblDisp.Text = LblDisp.Text.Substring(0, len - 1);
+            equation = LblDisp.Text.Substring(0, len - 1);
+            SetNums();
+        }
+        public async void SetNums()
+        {
+            if(equation.Contains(oper))
             {
-                l = equation.LastIndexOf(oper);
-                
-                str = equation.Substring(l, equation.Length - 1);
-                Second = Convert.ToDouble(str);
+                Nlen = equation.LastIndexOf(oper);
+                await DisplayAlert("LastIndexOf(oper)", Nlen.ToString(), "ok");
+                tmp = equation.Length - Nlen;
+                await DisplayAlert("Characters count", tmp.ToString(), "ok");
+                Second = Convert.ToDouble(equation.Substring(Nlen, tmp));
             }
             else
             {
-                //str = First.ToString();
-                str = equation.Substring(0, equation.Length - 1);
-                First = Convert.ToDouble(str);
                 op = false;
+                First = Convert.ToDouble(equation);
             }
-
-            /*}
-            else
-            {
-                len = LblDisp.Text.Length;
-                LblDisp.Text = LblDisp.Text.Substring(0, len - 1);
-                str = First.ToString();
-                str = str.Substring(0, str.Length - 1);
-                First = Convert.ToDouble(str);
-            }
-            
-        }*/
+        }
+        
     }
 }
