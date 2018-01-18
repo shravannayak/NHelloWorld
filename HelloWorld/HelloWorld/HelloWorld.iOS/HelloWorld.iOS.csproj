@@ -91,9 +91,9 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="SQLiteDb.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
-    <Compile Include="Persistence\SQLiteDb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -175,5 +175,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\plus%402x.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BundleResource Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Persistence\" />
+  </ItemGroup>
 </Project>

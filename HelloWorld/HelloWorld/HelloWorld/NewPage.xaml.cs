@@ -43,7 +43,7 @@ namespace HelloWorld
     [XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class NewPage : ContentPage
 	{
-        private SQLiteAsyncConnection _connection;
+        /*private SQLiteAsyncConnection _connection;
         private ObservableCollection<Recipe> _recipes;
 		public NewPage ()
 		{
@@ -79,6 +79,6 @@ namespace HelloWorld
             var recipe = _recipes[0];
             await _connection.DeleteAsync(recipe);
             _recipes.Remove(recipe);
-        }
+        }*/
     }
 }

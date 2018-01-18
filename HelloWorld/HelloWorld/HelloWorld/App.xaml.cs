@@ -15,7 +15,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new PageNew()) { BarTextColor = Color.White,BarBackgroundColor=Color.FromHex("63ad72") };
             /*{
                 BarBackgroundColor = Color.Gray,
                 BarTextColor=Color.White
