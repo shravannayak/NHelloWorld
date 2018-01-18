@@ -4696,11 +4696,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\HelloWorld.Android.csproj",
+      "projectUniqueName": "E:\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\HelloWorld.Android.csproj",
       "projectName": "HelloWorld.Android",
-      "projectPath": "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\HelloWorld.Android.csproj",
+      "projectPath": "E:\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\HelloWorld.Android.csproj",
       "packagesPath": "C:\\Users\\Shravan\\.nuget\\packages\\",
-      "outputPath": "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\obj\\",
+      "outputPath": "E:\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -4718,8 +4718,8 @@
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
-              "projectPath": "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj"
+            "E:\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+              "projectPath": "E:\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj"
             }
           }
         }

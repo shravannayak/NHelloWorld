@@ -6679,11 +6679,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.iOS\\HelloWorld.iOS.csproj",
+      "projectUniqueName": "E:\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.iOS\\HelloWorld.iOS.csproj",
       "projectName": "HelloWorld.iOS",
-      "projectPath": "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.iOS\\HelloWorld.iOS.csproj",
+      "projectPath": "E:\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.iOS\\HelloWorld.iOS.csproj",
       "packagesPath": "C:\\Users\\Shravan\\.nuget\\packages\\",
-      "outputPath": "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.iOS\\obj\\",
+      "outputPath": "E:\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -6701,8 +6701,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
-              "projectPath": "E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj"
+            "E:\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+              "projectPath": "E:\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj"
             }
           }
         }

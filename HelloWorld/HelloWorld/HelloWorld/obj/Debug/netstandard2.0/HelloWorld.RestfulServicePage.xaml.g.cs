@@ -11,7 +11,7 @@
 namespace HelloWorld {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Github\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\RestfulServicePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\RestfulServicePage.xaml")]
     public partial class RestfulServicePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

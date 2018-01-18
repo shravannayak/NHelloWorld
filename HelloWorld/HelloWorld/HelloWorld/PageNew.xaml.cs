@@ -17,11 +17,19 @@ namespace HelloWorld
 		{
 			InitializeComponent ();
             CheckDatabasePopulated();
-            listView.ItemsSource = GetToDoList();
 		}
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            listView.ItemsSource = GetToDoList();
+
+        }
         public async void OnItemSelected(object sender,SelectedItemChangedEventArgs e)
         {
-            await DisplayAlert("Msg", "Selected", "OK");       
+            if (e.SelectedItem == null)
+                return;
+            ((ListView)sender).SelectedItem = null;
+            await Navigation.PushAsync(new PageNewEdited((ToDoListItem)e.SelectedItem));
         }
         List<ToDoListItem> GetToDoList()
         {

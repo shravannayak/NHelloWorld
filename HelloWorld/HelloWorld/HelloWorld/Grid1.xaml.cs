@@ -15,7 +15,7 @@ namespace HelloWorld
         private double First = 0;
         private double Second = 0;
         private double Result = 0;
-        private double abc;
+        //private double abc;
         private bool op = false;
         private string oper;
         private string temp;

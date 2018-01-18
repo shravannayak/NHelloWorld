@@ -29,5 +29,9 @@ namespace HelloWorld
             foreach (var item in items)
                 _connection.Insert(item);
         }
+        public void EditItem(ToDoListItem item)
+        {
+            _connection.Update(item);
+        }
     }
 }
