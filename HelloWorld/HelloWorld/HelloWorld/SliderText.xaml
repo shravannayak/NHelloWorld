@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.SliderText"
+             xmlns:local="clr-namespace:HelloWorld.Models"
              Padding="5"
              Title="Slider Transforms Page">
     <Grid>
@@ -18,58 +19,91 @@
             <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
 
-        <!-- Scaled and rotated Label -->
-        <Label x:Name="label"
+        
+    <Label x:Name="label"
                Text="TEXT"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
 
-        <!-- Slider and identifying Label for Scale -->
-        <Slider x:Name="scaleSlider"
+    
+    <Slider x:Name="scaleSlider"
                 BindingContext="{x:Reference label}"
                 Grid.Row="1" Grid.Column="0"
                 Maximum="10"
                 Value="{Binding Scale, Mode=TwoWay}" />
 
-        <Label BindingContext="{x:Reference scaleSlider}"
+    <Label BindingContext="{x:Reference scaleSlider}"
                Text="{Binding Value, StringFormat='Scale = {0:F1}'}"
                Grid.Row="1" Grid.Column="1"
                VerticalTextAlignment="Center" />
 
-        <!-- Slider and identifying Label for Rotation -->
-        <Slider x:Name="rotationSlider"
+    
+    <Slider x:Name="rotationSlider"
                 BindingContext="{x:Reference label}"
                 Grid.Row="2" Grid.Column="0"
                 Maximum="360"
                 Value="{Binding Rotation, Mode=OneWayToSource}" />
 
-        <Label BindingContext="{x:Reference rotationSlider}"
+    <Label BindingContext="{x:Reference rotationSlider}"
                Text="{Binding Value, StringFormat='Rotation = {0:F0}'}"
                Grid.Row="2" Grid.Column="1"
                VerticalTextAlignment="Center" />
 
-        <!-- Slider and identifying Label for RotationX -->
-        <Slider x:Name="rotationXSlider"
+    
+    <Slider x:Name="rotationXSlider"
                 BindingContext="{x:Reference label}"
                 Grid.Row="3" Grid.Column="0"
                 Maximum="360"
                 Value="{Binding RotationX, Mode=OneWayToSource}" />
 
-        <Label BindingContext="{x:Reference rotationXSlider}"
+    <Label BindingContext="{x:Reference rotationXSlider}"
                Text="{Binding Value, StringFormat='RotationX = {0:F0}'}"
                Grid.Row="3" Grid.Column="1"
                VerticalTextAlignment="Center" />
 
-        <!-- Slider and identifying Label for RotationY -->
-        <Slider x:Name="rotationYSlider"
+    
+    <Slider x:Name="rotationYSlider"
                 BindingContext="{x:Reference label}"
                 Grid.Row="4" Grid.Column="0"
                 Maximum="360"
                 Value="{Binding RotationY, Mode=OneWayToSource}" />
 
-        <Label BindingContext="{x:Reference rotationYSlider}"
+    <Label BindingContext="{x:Reference rotationYSlider}"
                Text="{Binding Value, StringFormat='RotationY = {0:F0}'}"
                Grid.Row="4" Grid.Column="1"
                VerticalTextAlignment="Center" />
     </Grid>
+    <!--<ContentPage.Resources>
+        <ResourceDictionary>
+            <local:HslColorViewModel x:Key="viewModel" 
+                                     Color="MediumTurquoise" />
+
+            <Style TargetType="Slider">
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid BindingContext="{StaticResource viewModel}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <BoxView Color="{Binding Color}"
+                 Grid.Row="0" />
+
+        <StackLayout Grid.Row="1"
+                     Margin="10, 0">
+
+            <Label Text="{Binding Name}"
+                   HorizontalTextAlignment="Center" />
+
+            <Slider Value="{Binding Hue}" />
+
+            <Slider Value="{Binding Saturation}" />
+
+            <Slider Value="{Binding Luminosity}" />
+        </StackLayout>
+    </Grid>-->
 </ContentPage>

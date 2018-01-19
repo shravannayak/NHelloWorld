@@ -13,6 +13,7 @@
     <local:stack2 Title="7"/>
     <local:FormsPage Title="8"/>
     <local:SliderText Title="9"/>
+    <local:BoxViewClock Title="10"/>
     <!--<StackLayout>
         <Label Text="Welcome to Home Page" BackgroundColor="yellow" TextColor="Red"
                           HorizontalOptions="Center"/>
