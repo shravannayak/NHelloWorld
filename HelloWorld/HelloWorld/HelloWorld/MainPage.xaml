@@ -14,6 +14,7 @@
     <local:FormsPage Title="8"/>
     <local:SliderText Title="9"/>
     <local:BoxViewClock Title="10"/>
+    <local:DotMatrixClock Title="11"/>
     <!--<StackLayout>
         <Label Text="Welcome to Home Page" BackgroundColor="yellow" TextColor="Red"
                           HorizontalOptions="Center"/>

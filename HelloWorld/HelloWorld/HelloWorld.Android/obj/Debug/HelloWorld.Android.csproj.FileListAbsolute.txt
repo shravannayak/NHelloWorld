@@ -47,7 +47,6 @@ E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Debug\android\assets
 E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\bin\Debug\HelloWorld.Android.dll
 bin\Debug\FormsViewGroup.dll.mdb
 bin\Debug\Xamarin.Forms.Core.dll.mdb
 bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
