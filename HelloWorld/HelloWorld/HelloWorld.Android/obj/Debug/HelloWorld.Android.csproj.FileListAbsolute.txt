@@ -47,6 +47,8 @@ E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Debug\android\assets
 E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+bin\Debug\System.Numerics.pdb
+E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld.Android\bin\Debug\HelloWorld.Android.dll
 bin\Debug\FormsViewGroup.dll.mdb
 bin\Debug\Xamarin.Forms.Core.dll.mdb
 bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
@@ -62,7 +64,6 @@ bin\Debug\System.Net.Http.pdb
 bin\Debug\System.Xml.pdb
 bin\Debug\System.Xml.Linq.pdb
 bin\Debug\System.Data.pdb
-bin\Debug\System.Numerics.pdb
 bin\Debug\System.Transactions.pdb
 bin\Debug\Mono.Data.Tds.pdb
 bin\Debug\Mono.Security.pdb
