@@ -28,6 +28,5 @@ namespace HelloWorld
             await btn.ScaleTo(0.5, 50, Easing.SpringIn);
             await btn.ScaleTo(1, 50, Easing.SpringOut);
         }
-        
     }
 }
