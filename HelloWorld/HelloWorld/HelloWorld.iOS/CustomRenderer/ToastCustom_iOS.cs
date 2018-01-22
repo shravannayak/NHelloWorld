@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +16,7 @@ namespace HelloWorld.iOS.CustomRenderer
     {
         public void ShowToast(string message)
         {
-            Toast.MakeText(msg, Toast.LENGTH_SHORT).Show();
+            Toast.MakeText(message, Toast.LENGTH_SHORT).Show();
         }
     }
-}*/
+}
