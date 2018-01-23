@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.absolute1"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms"
              >
     <AbsoluteLayout>
         <BoxView AbsoluteLayout.LayoutBounds="0,0,1,0.3" AbsoluteLayout.LayoutFlags="All" BackgroundColor="#f7f7f7"/>
@@ -19,11 +20,7 @@ SkyApp by calling mobile and landline
 numbers, or spending SMS, at low-cost rates. 
             </Label>
         </StackLayout>
-        <!--<syncfusion:SfPdfViewer x:Name="pdfViewerControl" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+        <syncfusion:SfPdfViewer x:Name="pdfView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
                                 AbsoluteLayout.LayoutBounds="0,2,1,1" AbsoluteLayout.LayoutFlags="All"/>
-        
-        xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms"
-        
-        -->
     </AbsoluteLayout>
 </ContentPage>
