@@ -32,11 +32,19 @@ namespace HelloWorld
             streamPdf = GetPdf();
             if (Device.OS == TargetPlatform.Android)
                 DependencyService.Get<ISave>().Save("example.pdf", "application/pdf", streamPdf);
+            close.IsVisible = true;
             pdfView.LoadDocument(streamPdf);
         }
-        public static MemoryStream GetPdf()
+        public async void CloseDoc(object sender,EventArgs e)
         {
-            //Create a new PDF document.
+            await close.ScaleTo(0.5, 50, Easing.SpringIn);
+            await close.ScaleTo(1, 50, Easing.SpringOut);
+            pdfView.Unload();
+            close.IsVisible = false;
+        }
+        public MemoryStream GetPdf()
+        {
+            /*//Create a new PDF document.
             PdfDocument document = new PdfDocument();
             //Add a page to the document.
             PdfPage page = document.Pages.Add();
@@ -54,6 +62,45 @@ namespace HelloWorld
             document.Save(stream);
             document.Close(true);
 
+            return stream;*/
+
+            string text = "Hello world!!! Hello world!!!";
+            PdfDocument doc = new PdfDocument();
+            PdfPage page = doc.Pages.Add();
+            PdfStringFormat drawFormat = new PdfStringFormat();
+            drawFormat.WordWrap = PdfWordWrapType.Word;
+            drawFormat.Alignment = PdfTextAlignment.Justify;
+            drawFormat.LineAlignment = PdfVerticalAlignment.Top;
+            PdfFont font = new PdfStandardFont(PdfFontFamily.Helvetica, 10f);
+            PdfBrush brush = PdfBrushes.Red;
+            RectangleF bounds = new RectangleF(new PointF(10, 10), new SizeF(page.Graphics.ClientSize.Width - 30, page.Graphics.ClientSize.Height - 20));
+            PdfTextElement element = new PdfTextElement(text, font, brush);
+            element.StringFormat = drawFormat;
+            PdfLayoutResult result = element.Draw(page, bounds);
+            result = element.Draw(result.Page, new RectangleF(result.Bounds.X, result.Bounds.Bottom + 10, result.Bounds.Width, result.Bounds.Height));
+            PdfLightTable pdfLightTable = new PdfLightTable();
+            pdfLightTable.Columns.Add(new PdfColumn("Name"));
+            pdfLightTable.Columns.Add(new PdfColumn("Age"));
+            pdfLightTable.Columns.Add(new PdfColumn("Sex"));
+            pdfLightTable.Rows.Add(new string[] { "abc", "21", "Male" });
+            pdfLightTable.Style.ShowHeader = true;
+            result = pdfLightTable.Draw(page, new PointF(result.Bounds.Left, result.Bounds.Bottom + 20));
+            result = element.Draw(result.Page, result.Bounds.X, result.Bounds.Bottom + 10);
+            pdfLightTable = new PdfLightTable();
+            pdfLightTable.Columns.Add(new PdfColumn("Name"));
+            pdfLightTable.Columns.Add(new PdfColumn("Age"));
+            pdfLightTable.Columns.Add(new PdfColumn("Sex"));
+            pdfLightTable.Rows.Add(new string[] { "abc", "21", "Male" });
+            pdfLightTable.Rows.Add(new string[] { "xyz", "23", "Female" });
+            pdfLightTable.Style.ShowHeader = true;
+            result = pdfLightTable.Draw(page, new PointF(result.Bounds.Left, result.Bounds.Bottom + 20));
+            element.Draw(result.Page, result.Bounds.X, result.Bounds.Bottom + 10);
+            MemoryStream stream = new MemoryStream();
+
+            doc.Save(stream);
+
+            doc.Close(true);
+            
             return stream;
         }
 

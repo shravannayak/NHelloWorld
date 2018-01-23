@@ -11,16 +11,22 @@
             <Button Text="   Generate PDF   " TextColor="White" BackgroundColor="#1695A3" HeightRequest="50" FontSize="15" FontAttributes="Bold"
                     Clicked="BtnClick" x:Name="btn"/>
         </StackLayout>
-        
+
         <StackLayout AbsoluteLayout.LayoutBounds="0,1,1,0.7" AbsoluteLayout.LayoutFlags="All">
             <Label Text="Why pay for credit?" FontSize="15" FontAttributes="Bold" HorizontalOptions="Center"/>
             <Label FontSize="13" HorizontalTextAlignment="Center">
-Because you can reach people who are not on
+                Because you can reach people who are not on
 SkyApp by calling mobile and landline
-numbers, or spending SMS, at low-cost rates. 
+numbers, or spending SMS, at low-cost rates.
             </Label>
+            <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                
+            <syncfusion:SfPdfViewer x:Name="pdfView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+                                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1}"/>
+                <Button Text="X" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Y,Factor=0}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=pdfView,Property=X,Factor=1}" WidthRequest="50" x:Name="close" IsVisible="False" Clicked="CloseDoc"/>
+            </RelativeLayout>          
         </StackLayout>
-        <syncfusion:SfPdfViewer x:Name="pdfView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
-                                AbsoluteLayout.LayoutBounds="0,2,1,1" AbsoluteLayout.LayoutFlags="All"/>
     </AbsoluteLayout>
 </ContentPage>
