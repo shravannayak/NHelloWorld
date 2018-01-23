@@ -14,8 +14,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using HelloWorld.Droid.Persistence;
-using HelloWorld.Persistence;
 using Xamarin.Forms;
+using HelloWorld.Persistence;
 
 [assembly: Dependency(typeof(SaveAndroid))]
 namespace HelloWorld.Droid.Persistence
@@ -59,8 +59,8 @@ namespace HelloWorld.Droid.Persistence
             {
                 exception = e.ToString();
             }
-            if (global::Android.OS.Build.VERSION.SdkInt < global::Android.OS.BuildVersionCodes.Lollipop)
-            {
+            //if (global::Android.OS.Build.VERSION.SdkInt < global::Android.OS.BuildVersionCodes.Lollipop)
+            //{
                 try
                 {
                     if (file.Exists() && contentType != "application/html")
@@ -77,7 +77,7 @@ namespace HelloWorld.Droid.Persistence
                 {
                     e.Data.Clear();
                 }
-            }
+            //}
         }
     }
 }
