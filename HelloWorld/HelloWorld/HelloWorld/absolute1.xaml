@@ -15,18 +15,21 @@
         <StackLayout AbsoluteLayout.LayoutBounds="0,1,1,0.7" AbsoluteLayout.LayoutFlags="All">
             <Label Text="Why pay for credit?" FontSize="15" FontAttributes="Bold" HorizontalOptions="Center"/>
             <Label FontSize="13" HorizontalTextAlignment="Center">
-                Because you can reach people who are not on
+Because you can reach people who are not on
 SkyApp by calling mobile and landline
 numbers, or spending SMS, at low-cost rates.
             </Label>
             <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                
-            <syncfusion:SfPdfViewer x:Name="pdfView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
-                                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
-        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1}"/>
-                <Button Text="X" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Y,Factor=0}"
-        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=pdfView,Property=X,Factor=1}" WidthRequest="50" x:Name="close" IsVisible="False" Clicked="CloseDoc"/>
-            </RelativeLayout>          
+
+                <syncfusion:SfPdfViewer x:Name="pdfView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
+                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1}"
+                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0,Constant=0}"
+                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0, Constant=0}"/>
+                <StackLayout RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}">
+                    <Button Text="X" BackgroundColor="Red" TextColor="White" HorizontalOptions="EndAndExpand" WidthRequest="40" x:Name="close" IsVisible="False" Clicked="CloseDoc"/>
+                </StackLayout>
+            </RelativeLayout>
         </StackLayout>
     </AbsoluteLayout>
 </ContentPage>
