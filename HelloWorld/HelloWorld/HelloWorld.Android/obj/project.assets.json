@@ -159,7 +159,7 @@
           "lib/MonoAndroid/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/1.1.5": {
+      "SQLitePCLRaw.core/1.1.9": {
         "type": "package",
         "compile": {
           "lib/MonoAndroid/SQLitePCLRaw.core.dll": {}
@@ -177,10 +177,10 @@
           "lib/MonoAndroid/SQLitePCLRaw.lib.e_sqlite3.dll": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3.android/1.1.5": {
+      "SQLitePCLRaw.provider.e_sqlite3.android/1.1.9": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.9"
         },
         "compile": {
           "lib/MonoAndroid/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -1418,10 +1418,10 @@
         "sqlitepclraw.bundle_green.nuspec"
       ]
     },
-    "SQLitePCLRaw.core/1.1.5": {
-      "sha512": "NViT1KDYnPAQo7yoYmkAMWzT15ZjqbLTSZp9iTVwZDz7fBC5fQ9TYebOFUIxYxrD/RvBpYB8m9PtcL8x/QbKNg==",
+    "SQLitePCLRaw.core/1.1.9": {
+      "sha512": "mShkTlsP/dpulialGuPiN5VJf8/JGB/Vjqtvj8loQPxvQ+DISmstcdQJ+CGNEe7R1FP29hAJelZlIIMxAvWYtQ==",
       "type": "package",
-      "path": "sqlitepclraw.core/1.1.5",
+      "path": "sqlitepclraw.core/1.1.9",
       "files": [
         "lib/MonoAndroid/SQLitePCLRaw.core.dll",
         "lib/Xamarin.Mac20/SQLitePCLRaw.core.dll",
@@ -1438,7 +1438,7 @@
         "lib/win8/SQLitePCLRaw.core.dll",
         "lib/win81/SQLitePCLRaw.core.dll",
         "lib/wpa81/SQLitePCLRaw.core.dll",
-        "sqlitepclraw.core.1.1.5.nupkg.sha512",
+        "sqlitepclraw.core.1.1.9.nupkg.sha512",
         "sqlitepclraw.core.nuspec"
       ]
     },
@@ -1452,13 +1452,13 @@
         "sqlitepclraw.lib.e_sqlite3.android.nuspec"
       ]
     },
-    "SQLitePCLRaw.provider.e_sqlite3.android/1.1.5": {
-      "sha512": "C8qQ2anwnJomTNtIs8ItYgHg1KDepxHV5E89d4zkh4vWeGWv5nUm1cknuh7xTZTbet3CNQa6qfRTZIolf0p6+w==",
+    "SQLitePCLRaw.provider.e_sqlite3.android/1.1.9": {
+      "sha512": "zwNlo2FRPajdDFmr3KCArcpNd9uRRXPVGiE5Ba+YZBLP+9yRLBhTh96mJG0/ObKwq0fHWJmxUxnaY+7rj+2Jkw==",
       "type": "package",
-      "path": "sqlitepclraw.provider.e_sqlite3.android/1.1.5",
+      "path": "sqlitepclraw.provider.e_sqlite3.android/1.1.9",
       "files": [
         "lib/MonoAndroid/SQLitePCLRaw.provider.e_sqlite3.dll",
-        "sqlitepclraw.provider.e_sqlite3.android.1.1.5.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.android.1.1.9.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.android.nuspec"
       ]
     },
@@ -4678,6 +4678,7 @@
       "HelloWorld >= 1.0.0",
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 10.0.3",
+      "SQLitePCLRaw.provider.e_sqlite3.android >= 1.1.9",
       "Syncfusion.Xamarin.Compression >= 15.4.0.20",
       "Syncfusion.Xamarin.SfAutoComplete >= 15.4.0.20",
       "Syncfusion.Xamarin.SfPdfViewer >= 15.4.0.20",
@@ -4735,6 +4736,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[10.0.3, )"
+          },
+          "SQLitePCLRaw.provider.e_sqlite3.android": {
+            "target": "Package",
+            "version": "[1.1.9, )"
           },
           "Syncfusion.Xamarin.Compression": {
             "target": "Package",

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Android", "HelloWorld\HelloWorld.Android\HelloWorld.Android.csproj", "{BDF13C6B-382A-485C-AA49-0F039669369B}"
 EndProject
@@ -72,6 +72,7 @@ Global
 		{23016B3A-195D-4357-8001-D1D0518A7B34}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
 		{23016B3A-195D-4357-8001-D1D0518A7B34}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
 		{23016B3A-195D-4357-8001-D1D0518A7B34}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{23016B3A-195D-4357-8001-D1D0518A7B34}.Debug|Any CPU.Build.0 = Debug|iPhone
 		{23016B3A-195D-4357-8001-D1D0518A7B34}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{23016B3A-195D-4357-8001-D1D0518A7B34}.Debug|iPhone.Build.0 = Debug|iPhone
 		{23016B3A-195D-4357-8001-D1D0518A7B34}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator

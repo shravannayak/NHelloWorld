@@ -41,6 +41,14 @@ public class BubbleView
 	}
 
 
+	public BubbleView (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
+	{
+		super (p0, p1, p2, p3);
+		if (getClass () == BubbleView.class)
+			mono.android.TypeManager.Activate ("Syncfusion.SfPdfViewer.XForms.Droid.BubbleView, Syncfusion.SfPdfViewer.XForms.Android, Version=15.4451.0.20, Culture=neutral, PublicKeyToken=null", "Android.Content.Context, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065:Android.Util.IAttributeSet, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065:System.Int32, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e:System.Int32, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", this, new java.lang.Object[] { p0, p1, p2, p3 });
+	}
+
+
 	public void onDraw (android.graphics.Canvas p0)
 	{
 		n_onDraw (p0);
