@@ -16,5 +16,13 @@ namespace HelloWorld
 		{
 			InitializeComponent ();
 		}
+        public void BtnClick(object sender,EventArgs e)
+        {
+            Button btn = (Button)sender;
+            if (btn.Text.Trim().Equals("X"))
+                NewLayout.IsVisible = false;
+            else
+                NewLayout.IsVisible = true; 
+        }
 	}
 }
