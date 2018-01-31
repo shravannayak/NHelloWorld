@@ -88,10 +88,16 @@
     <CodesignKey>iPhone Distribution</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <AppExtensionDebugBundleId />
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="CustomRenderer\ToastCustom_iOS.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Persistence\PreviewControllerDS.cs" />
+    <Compile Include="Persistence\QLPreviewItemFileSystem.cs" />
+    <Compile Include="Persistence\SaveIOS.cs" />
     <Compile Include="SQLiteDb.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
@@ -183,6 +189,11 @@
     <BundleResource Include="Resources\bg.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Persistence\" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Media.xcassets\LaunchImages.launchimage\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
 </Project>
