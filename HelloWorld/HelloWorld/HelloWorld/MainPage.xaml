@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:HelloWorld"
              x:Class="HelloWorld.MainPage"
              >
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0"/>
+    </ContentPage.Padding>
     <local:absolute1 Title="1"/>
     <local:absolute2 Title="2"/>
     <local:Grid1 Title="3"/>

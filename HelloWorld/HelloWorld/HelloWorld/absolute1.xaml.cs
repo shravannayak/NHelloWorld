@@ -13,6 +13,7 @@ using Syncfusion.Pdf;
 using Syncfusion.Pdf.Graphics;
 using Syncfusion.Pdf.Tables;
 using HelloWorld.Persistence;
+using HelloWorld.CustomRenderer;
 
 namespace HelloWorld
 {
@@ -30,10 +31,13 @@ namespace HelloWorld
             await btn.ScaleTo(0.5, 50, Easing.SpringIn);
             await btn.ScaleTo(1, 50, Easing.SpringOut);
             streamPdf = GetPdf();
-            if (Device.OS == TargetPlatform.Android)
-                DependencyService.Get<ISave>().Save("example.pdf", "application/pdf", streamPdf);
-            close.IsVisible = true;
             pdfView.LoadDocument(streamPdf);
+           // if (Device.OS == TargetPlatform.Android)
+              //  DependencyService.Get<ISave>().Save("example.pdf", "application/pdf", streamPdf);
+            
+            close.IsVisible = true;
+         
+            DependencyService.Get<ITostCustom>().ShowToast("Downloaded");
         }
         public async void CloseDoc(object sender,EventArgs e)
         {

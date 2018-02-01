@@ -12,9 +12,14 @@ namespace HelloWorld
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class SliderText : ContentPage
 	{
-		public SliderText ()
-		{
-			InitializeComponent ();
-		}
+        public SliderText()
+        {
+            InitializeComponent();
+
+            BindingContext = new HslViewModel()
+            {
+                Color = Color.Aqua
+            };
+        }
 	}
 }

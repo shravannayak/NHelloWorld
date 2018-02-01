@@ -4,6 +4,10 @@
              x:Class="HelloWorld.DotMatrixClock"
              Padding="10"
              SizeChanged="OnPageSizeChanged">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0"/>
+    </ContentPage.Padding>
     <AbsoluteLayout x:Name="absoluteLayout"
                     VerticalOptions="Center" />
 </ContentPage>

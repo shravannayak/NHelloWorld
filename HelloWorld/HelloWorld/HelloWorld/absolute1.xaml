@@ -4,6 +4,10 @@
              x:Class="HelloWorld.absolute1"
              xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms"
              >
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0"/>
+    </ContentPage.Padding>
     <AbsoluteLayout>
         <BoxView AbsoluteLayout.LayoutBounds="0,0,1,0.3" AbsoluteLayout.LayoutFlags="All" BackgroundColor="#f7f7f7"/>
         <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,0.3" AbsoluteLayout.LayoutFlags="All">

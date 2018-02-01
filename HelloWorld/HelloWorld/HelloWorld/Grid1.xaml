@@ -3,6 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.Grid1"
              BackgroundColor="#354242">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0"/>
+    </ContentPage.Padding>
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType="Button">
