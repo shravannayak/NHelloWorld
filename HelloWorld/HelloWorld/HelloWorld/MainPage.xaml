@@ -1,77 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:HelloWorld"
              x:Class="HelloWorld.MainPage"
-             >
+             Title="NewApp">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness"
                 iOS="0, 20, 0, 0"/>
     </ContentPage.Padding>
-    <local:absolute1 Title="1"/>
-    <local:absolute2 Title="2"/>
-    <local:Grid1 Title="3"/>
-    <local:ImageGallery Title="4"/>
-    <local:QuotesPage Title="5"/>
-    <local:stack1 Title="6"/>
-    <local:stack2 Title="7"/>
-    <local:FormsPage Title="8"/>
-    <local:SliderText Title="9"/>
-    <local:BoxViewClock Title="10"/>
-    <local:DotMatrixClock Title="11"/>
-    <!--<StackLayout>
-        <Label Text="Welcome to Home Page" BackgroundColor="yellow" TextColor="Red"
-                          HorizontalOptions="Center"/>
-        <Button Text="Quotes Page" 
-           VerticalOptions="Center" 
-            BackgroundColor="Black"
-            TextColor="AntiqueWhite"
-           HorizontalOptions="Center" 
-           Clicked="OpenQuotes" />
-        <Button Text="Stack Login page"
-                VerticalOptions="Center" 
-            BackgroundColor="Black"
-            TextColor="AntiqueWhite"
-           HorizontalOptions="Center" 
-           Clicked="OpenLStack"/>
-        <Button Text="Stack Insta page"
-                VerticalOptions="Center" 
-            BackgroundColor="Black"
-            TextColor="AntiqueWhite"
-           HorizontalOptions="Center" 
-           Clicked="OpenIStack"/>
-        <Button Text="Grid page"
-                VerticalOptions="Center" 
-            BackgroundColor="Black"
-            TextColor="AntiqueWhite"
-           HorizontalOptions="Center" 
-           Clicked="OpenGrid"/>
-        <Button Text="Absolute page 1"
-                VerticalOptions="Center" 
-            BackgroundColor="Black"
-            TextColor="AntiqueWhite"
-           HorizontalOptions="Center" 
-           Clicked="OpenAbsolute1"/>
-        <Button Text="Absolute page 2"
-                VerticalOptions="Center" 
-            BackgroundColor="Black"
-            TextColor="AntiqueWhite"
-           HorizontalOptions="Center" 
-           Clicked="OpenAbsolute2"/>
-        <Button Text="Image Gallery"
-                VerticalOptions="Center" 
-            BackgroundColor="Black"
-            TextColor="AntiqueWhite"
-           HorizontalOptions="Center" 
-           Clicked="OpenGallery"/>
-        <Button Text="Search Airbnb"
-                VerticalOptions="Center" 
-            BackgroundColor="Black"
-            TextColor="AntiqueWhite"
-           HorizontalOptions="Center" 
-           Clicked="OpenList1"/>
-    </StackLayout>-->
-</TabbedPage>
+    <ScrollView>
+    <StackLayout Spacing="0">
+        <StackLayout.Resources>
+            <ResourceDictionary>
+                <Style TargetType="Button">
+                    <Setter Property="TextColor" Value="White"/>
+                    <Setter Property="BackgroundColor" Value="Red"/>
+                    <Setter Property="Margin" Value="0"/>
+                    
+                </Style>
+            </ResourceDictionary>
+        </StackLayout.Resources>
+        <Button Text="Pdf Screen" ClassId="1" Clicked="Btnclick"/>
+        <Button Text="SQLite CRUD" ClassId="2" Clicked="Btnclick"/>
+        <Button Text="Absolute Layout" ClassId="3" Clicked="Btnclick"/>
+        <Button Text="Calculator" ClassId="4" Clicked="Btnclick"/>
+        <Button Text="Image Gallery" ClassId="5" Clicked="Btnclick"/>
+        <Button Text="Quotes Screen" ClassId="6" Clicked="Btnclick"/>
+        <Button Text="Stack Layout" ClassId="7" Clicked="Btnclick"/>
+        <Button Text="Stack Layout 2" ClassId="8" Clicked="Btnclick"/>
+        <Button Text="Forms Screen" ClassId="9" Clicked="Btnclick"/>
+        <Button Text="Data Binding" ClassId="10" Clicked="Btnclick"/>
+        <Button Text="Analog Clock" ClassId="11" Clicked="Btnclick"/>
+        <Button Text="Digital Clock" ClassId="12" Clicked="Btnclick"/>
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
     
     
 

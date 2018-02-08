@@ -12,7 +12,7 @@ namespace HelloWorld {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\NHelloWorld\\HelloWorld\\HelloWorld\\HelloWorld\\MainPage.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.TabbedPage {
+    public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {

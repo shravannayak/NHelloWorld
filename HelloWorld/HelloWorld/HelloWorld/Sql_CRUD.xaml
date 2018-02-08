@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.Sql_CRUD">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0"/>
+    </ContentPage.Padding>
+    <StackLayout>
+        <Label Text="Save Your Notes:"></Label>
+        <Entry Placeholder="Enter Notes Title" x:Name="TitleText"></Entry>
+        <Entry Placeholder="Enter Notes Description" x:Name="DescriptionText"></Entry>
+        <Button Text="ADD" Clicked="BtnClick" x:Name="SaveBtn"></Button>
+
+        <Label Text="Saved Notes" VerticalOptions="End" TextColor="Blue"></Label>
+        <ListView VerticalOptions="EndAndExpand" x:Name="mylistview">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Title}" Detail="{Binding Desc}">
+                        <TextCell.ContextActions>                            
+                            <MenuItem Text="Edit" CommandParameter="{Binding .}" Clicked="OnEdit"></MenuItem>
+                            <MenuItem Text="Delete" CommandParameter="{Binding .}" IsDestructive="True" Clicked="OnDelete"></MenuItem>
+                        </TextCell.ContextActions>
+                    </TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

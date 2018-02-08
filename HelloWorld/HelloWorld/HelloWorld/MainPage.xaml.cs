@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace HelloWorld
 {
-	public partial class MainPage : TabbedPage
+	public partial class MainPage : ContentPage
 	{
 		public MainPage()
 		{
@@ -33,38 +33,28 @@ namespace HelloWorld
 
 
         //}
-        /*public async void OpenQuotes (Object sender,EventArgs e)
+        public async void Btnclick(object sender,EventArgs e)
         {
-            await Navigation.PushAsync(new QuotesPage());
-            //IsPresented = false;
+            Button btn = (Button)sender;
+            var id = btn.ClassId;
+            switch(id)
+            {
+                case "1": await Navigation.PushAsync(new absolute1()); break;
+                case "2": await Navigation.PushAsync(new Sql_CRUD()); break;
+                case "3": await Navigation.PushAsync(new absolute2()); break;
+                case "4": await Navigation.PushAsync(new Grid1()); break;
+                case "5": await Navigation.PushAsync(new ImageGallery()); break;
+                case "6": await Navigation.PushAsync(new QuotesPage()); break;
+                case "7": await Navigation.PushAsync(new stack1()); break;
+                case "8": await Navigation.PushAsync(new stack2()); break;
+                case "9": await Navigation.PushAsync(new FormsPage()); break;
+                case "10": await Navigation.PushAsync(new SliderText()); break;
+                case "11": await Navigation.PushAsync(new BoxViewClock()); break;
+                case "12": await Navigation.PushAsync(new DotMatrixClock()); break;
+
+            }
         }
-        public async void OpenLStack(Object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new stack1());
-        }
-        public async void OpenIStack(Object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new stack2());
-        }
-        public async void OpenGrid(Object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Grid1());
-        }
-        public async void OpenAbsolute1(Object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new absolute1());
-        }
-        public async void OpenAbsolute2(Object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new absolute2());
-        }
-        public async void OpenGallery(Object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ImageGallery());
-        }
-        public async void OpenList1(Object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ListEx1());
-        }*/
+
+       
     }
 }
