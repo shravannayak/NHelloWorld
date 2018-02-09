@@ -11,6 +11,10 @@ namespace HelloWorld
 	{
         private const string TitleKey = "Name";
         private const string NotificationsEnabledKey = "NotificationsEnabled";
+        private bool TostFlag
+        {
+            get;set;
+        }
         public App ()
 		{
 			InitializeComponent();

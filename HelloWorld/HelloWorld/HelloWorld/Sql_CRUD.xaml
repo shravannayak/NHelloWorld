@@ -10,7 +10,7 @@
         <Label Text="Save Your Notes:"></Label>
         <Entry Placeholder="Enter Notes Title" x:Name="TitleText"></Entry>
         <Entry Placeholder="Enter Notes Description" x:Name="DescriptionText"></Entry>
-        <Button Text="ADD" Clicked="BtnClick" x:Name="SaveBtn"></Button>
+        <Button Text="ADD" Clicked="BtnClick" x:Name="SaveBtn" Command="AddCommand"></Button>
 
         <Label Text="Saved Notes" VerticalOptions="End" TextColor="Blue"></Label>
         <ListView VerticalOptions="EndAndExpand" x:Name="mylistview">

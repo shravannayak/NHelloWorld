@@ -9,14 +9,15 @@
                 iOS="0, 20, 0, 0"/>
     </ContentPage.Padding>
     <ScrollView>
-    <StackLayout Spacing="0">
+    <StackLayout Spacing="1" Padding="0">
         <StackLayout.Resources>
             <ResourceDictionary>
                 <Style TargetType="Button">
                     <Setter Property="TextColor" Value="White"/>
                     <Setter Property="BackgroundColor" Value="Red"/>
                     <Setter Property="Margin" Value="0"/>
-                    
+                    <Setter Property="BorderRadius" Value="0"/>
+                    <Setter Property="BorderWidth" Value="0"/>
                 </Style>
             </ResourceDictionary>
         </StackLayout.Resources>

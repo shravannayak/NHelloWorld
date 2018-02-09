@@ -10,18 +10,21 @@ using SQLite;
 using System.Collections.ObjectModel;
 using HelloWorld.Models;
 using HelloWorld.CustomRenderer;
+using HelloWorld.Views;
 
 namespace HelloWorld
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Sql_CRUD : ContentPage
 	{
+        
         private SQLiteConnection _connection;
         private ObservableCollection<Test> _Test;
         private Test testEdit;
-
+       // private bool TostFlag { get; set; }
         public Sql_CRUD ()
 		{
+            BindingContext = new SQL_VM();
 			InitializeComponent ();
             _connection = DependencyService.Get<ISQLite>().GetConnection();
         }
@@ -45,6 +48,7 @@ namespace HelloWorld
                 _connection.Insert(Test);
                 TitleText.Text = "";
                 DescriptionText.Text = null;
+                //TostFlag = true;
                 DependencyService.Get<ITostCustom>().ShowToast("Added");
             }
             else if(btn.Text=="EDIT")
