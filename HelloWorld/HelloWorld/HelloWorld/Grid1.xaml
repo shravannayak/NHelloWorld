@@ -31,7 +31,8 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
         <Label Grid.Row="0" Grid.ColumnSpan="4" BackgroundColor="White" x:Name="LblDisp" HorizontalOptions="EndAndExpand" FontSize="50" Text="0"/>
 
             <Button Clicked="ClearClicked" Grid.Row="1" Grid.Column="0" Text="AC"/>
@@ -52,6 +53,9 @@
             <Button Clicked="CalcClicked" Grid.Row="4" Grid.RowSpan="2" Grid.Column="3" Text="=" />
             <Button Clicked="NumClicked" Grid.Row="5" Grid.ColumnSpan="2" Text="0"/>
             <Button Clicked="NumClicked" Grid.Row="5" Grid.Column="2" Text="."/>
-            <!--<Button Grid.Row="5" Grid.ColumnSpan="3" Text="Dial" BackgroundColor="#96ca2d" FontSize="30" TextColor ="#28282c" BorderRadius = "30"/>-->
+        <Label Grid.Row="6" Grid.ColumnSpan="4" FontAttributes="Bold" TextColor="Red" HorizontalOptions="Center">
+This is under Construction, the app might crash            
+        </Label>
+        <!--<Button Grid.Row="5" Grid.ColumnSpan="3" Text="Dial" BackgroundColor="#96ca2d" FontSize="30" TextColor ="#28282c" BorderRadius = "30"/>-->
         </Grid>
 </ContentPage>

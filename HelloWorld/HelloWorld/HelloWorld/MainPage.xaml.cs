@@ -12,7 +12,7 @@ namespace HelloWorld
 		public MainPage()
 		{
             InitializeComponent();
-            
+
             //NavigationPage.HasNavigationBarProperty(this, false);
             //NavigationPage.SetHideNavigationBar(MainPage, true);
             //list1.ItemsSource = new List<String>
@@ -20,6 +20,7 @@ namespace HelloWorld
             //    "stack1",
             //    "Grid1"
             //};
+            //img.Source = ImageSource.FromResource("HelloWorld.Images.bulbimage.jpg");
         }
 
         public object NavigationController { get; }

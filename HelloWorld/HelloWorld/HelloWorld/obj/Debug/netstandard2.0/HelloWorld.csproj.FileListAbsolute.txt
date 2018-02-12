@@ -99,4 +99,3 @@ E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWo
 E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.AssemblyInfo.cs
 E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.dll
 E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.pdb
-E:\NHelloWorld\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.csprojResolveAssemblyReference.cache

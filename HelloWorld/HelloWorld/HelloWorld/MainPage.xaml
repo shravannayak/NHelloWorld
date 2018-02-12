@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage NavigationPage.HasNavigationBar="false"
+             xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:HelloWorld"
              x:Class="HelloWorld.MainPage"
+             xmlns:me="clr-namespace:HelloWorld.Models;assembly=HelloWorld"
              Title="NewApp">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness"
@@ -14,13 +16,15 @@
             <ResourceDictionary>
                 <Style TargetType="Button">
                     <Setter Property="TextColor" Value="White"/>
-                    <Setter Property="BackgroundColor" Value="Red"/>
+                    <Setter Property="BackgroundColor" Value="#00acca"/>
                     <Setter Property="Margin" Value="0"/>
+                    <Setter Property="BorderWidth" Value="2"/>
+                    <Setter Property="BorderColor" Value="#0097b2"/>
                     <Setter Property="BorderRadius" Value="0"/>
-                    <Setter Property="BorderWidth" Value="0"/>
-                </Style>
+                    </Style>
             </ResourceDictionary>
         </StackLayout.Resources>
+        <Image x:Name="img"   Source="{me:ImageResource HelloWorld.Images.bulbimage.jpg}"/>
         <Button Text="Pdf Screen" ClassId="1" Clicked="Btnclick"/>
         <Button Text="SQLite CRUD" ClassId="2" Clicked="Btnclick"/>
         <Button Text="Absolute Layout" ClassId="3" Clicked="Btnclick"/>

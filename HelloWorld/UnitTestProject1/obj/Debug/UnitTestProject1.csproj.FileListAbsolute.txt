@@ -102,9 +102,16 @@ E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\System.Xml.XPath.XDocument.
 E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\HelloWorld.dll
 E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\Xamarin.Forms.Core.dll
+E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\Xamarin.Forms.Platform.dll
+E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\Xamarin.Forms.Xaml.dll
 E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\HelloWorld.pdb
 E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\Xamarin.Forms.Core.pdb
+E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\Xamarin.Forms.Core.xml
+E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\Xamarin.Forms.Xaml.pdb
+E:\NHelloWorld\HelloWorld\UnitTestProject1\bin\Debug\Xamarin.Forms.Xaml.xml
 E:\NHelloWorld\HelloWorld\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
 E:\NHelloWorld\HelloWorld\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
 E:\NHelloWorld\HelloWorld\UnitTestProject1\obj\Debug\UnitTestProject1.dll
