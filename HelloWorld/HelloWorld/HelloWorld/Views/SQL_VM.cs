@@ -40,7 +40,7 @@ namespace HelloWorld.Views
                 return new Command(() =>
                 {
                     TFlag = 1;
-                    DependencyService.Get<ITostCustom>().ShowToast("Added");
+                    //DependencyService.Get<ITostCustom>().ShowToast("Added");
                 });
             }
         }

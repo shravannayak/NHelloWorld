@@ -6,6 +6,10 @@ HelloWorld.Droid.SplashActivity, HelloWorld.Android;md5fd8ed8046cea676d1ed0ce1fd
 HelloWorld.Droid.SplashActivity, HelloWorld.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fd8ed8046cea676d1ed0ce1fd728c386.SplashActivity
 HelloWorld.Droid.SplashActivity;md5fd8ed8046cea676d1ed0ce1fd728c386.SplashActivity
 helloworld.droid.SplashActivity;md5fd8ed8046cea676d1ed0ce1fd728c386.SplashActivity
+HelloWorld.Droid.CustomRenderer.MyButtonRenderer, HelloWorld.Android;md51738c4bd0fa282a3af88e1eed2ec0274.MyButtonRenderer
+HelloWorld.Droid.CustomRenderer.MyButtonRenderer, HelloWorld.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51738c4bd0fa282a3af88e1eed2ec0274.MyButtonRenderer
+HelloWorld.Droid.CustomRenderer.MyButtonRenderer;md51738c4bd0fa282a3af88e1eed2ec0274.MyButtonRenderer
+helloworld.droid.customrenderer.MyButtonRenderer;md51738c4bd0fa282a3af88e1eed2ec0274.MyButtonRenderer
 Com.Syncfusion.Autocomplete.SfAutoComplete, Syncfusion.SfAutoComplete.Android;md53a21ac63cd1f5d397f74a77844dbf16e.SfAutoComplete
 Com.Syncfusion.Autocomplete.SfAutoComplete, Syncfusion.SfAutoComplete.Android, Version=15.4451.0.20, Culture=neutral, PublicKeyToken=null;md53a21ac63cd1f5d397f74a77844dbf16e.SfAutoComplete
 Com.Syncfusion.Autocomplete.SfAutoComplete;md53a21ac63cd1f5d397f74a77844dbf16e.SfAutoComplete

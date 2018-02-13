@@ -95,6 +95,7 @@
     <AppExtensionDebugBundleId />
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CustomRenderer\MyButtonRenderer.cs" />
     <Compile Include="CustomRenderer\ToastCustom_iOS.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
