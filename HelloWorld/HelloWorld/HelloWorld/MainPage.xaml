@@ -25,6 +25,7 @@
             </ResourceDictionary>
         </StackLayout.Resources>
         <Image x:Name="img"   Source="{me:ImageResource HelloWorld.Images.bulbimage.jpg}"/>
+        <Label TextColor="Red" Text="The first two buttons are created using custom renderers" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
         <control:MyButton Text="Pdf Screen" ClassId="1" Clicked="Btnclick"/>
         <control:MyButton Text="SQLite CRUD" ClassId="2" Clicked="Btnclick"/>
         <Button Text="Absolute Layout" ClassId="3" Clicked="Btnclick"/>
@@ -37,7 +38,25 @@
         <Button Text="Data Binding" ClassId="10" Clicked="Btnclick"/>
         <Button Text="Analog Clock" ClassId="11" Clicked="Btnclick"/>
         <Button Text="Digital Clock" ClassId="12" Clicked="Btnclick"/>
-    </StackLayout>
+        
+        
+        
+        
+        
+        <!-- Experimenting 
+            <Picker x:Name="pick">
+                <Picker.Items>
+                    <x:String>Pdf Screen</x:String>
+                    <x:String>SQLite CRUD</x:String>
+                    <x:String>Absolute Layout</x:String>
+                    <x:String>Image Gallery</x:String>
+                    <x:String>Stack Layout</x:String>
+                    <x:String>Stack Layout 2</x:String>
+                    <x:String>Analog Clock</x:String>
+                </Picker.Items>
+            </Picker>
+            <DatePicker Date="15 Feb 2018" Format="dd MMM yyyy"/>-->
+        </StackLayout>
     </ScrollView>
 </ContentPage>
     

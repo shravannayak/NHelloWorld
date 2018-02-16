@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HelloWorld.CustomRenderer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -52,8 +53,13 @@ namespace HelloWorld
                 case "10": await Navigation.PushAsync(new SliderText()); break;
                 case "11": await Navigation.PushAsync(new BoxViewClock()); break;
                 case "12": await Navigation.PushAsync(new DotMatrixClock()); break;
-
+               
             }
+        }
+        public void OnSelect(object sender,SelectedItemChangedEventArgs e)
+        {
+            string str = (string)sender;
+            DependencyService.Get<ITostCustom>().ShowToast(str);
         }
 
        

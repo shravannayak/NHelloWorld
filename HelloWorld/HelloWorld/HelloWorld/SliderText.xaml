@@ -4,7 +4,7 @@
              x:Class="HelloWorld.SliderText"
              xmlns:local="clr-namespace:HelloWorld.Models"
              Padding="5"
-             Title="Slider Transforms Page">
+             Title="Data Binding Example">
     <!--<Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />

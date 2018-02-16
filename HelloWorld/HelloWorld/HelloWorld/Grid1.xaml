@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.Grid1"
-             BackgroundColor="#354242">
+             BackgroundColor="#354242"
+             Title="Grid Calculator">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness"
                 iOS="0, 20, 0, 0"/>
@@ -53,9 +54,8 @@
             <Button Clicked="CalcClicked" Grid.Row="4" Grid.RowSpan="2" Grid.Column="3" Text="=" />
             <Button Clicked="NumClicked" Grid.Row="5" Grid.ColumnSpan="2" Text="0"/>
             <Button Clicked="NumClicked" Grid.Row="5" Grid.Column="2" Text="."/>
-        <Label Grid.Row="6" Grid.ColumnSpan="4" FontAttributes="Bold" TextColor="Red" HorizontalOptions="Center">
-This is under Construction, the app might crash            
-        </Label>
+        <Label Grid.Row="6" Grid.ColumnSpan="4" FontAttributes="Bold" TextColor="LightGreen" HorizontalTextAlignment="Center" Text="This is under Construction, the app might crash"/>
+
         <!--<Button Grid.Row="5" Grid.ColumnSpan="3" Text="Dial" BackgroundColor="#96ca2d" FontSize="30" TextColor ="#28282c" BorderRadius = "30"/>-->
         </Grid>
 </ContentPage>

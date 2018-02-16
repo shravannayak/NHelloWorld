@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.DotMatrixClock"
              Padding="10"
-             SizeChanged="OnPageSizeChanged">
+             SizeChanged="OnPageSizeChanged"
+             Title="DotMatrix Clock BoxView">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness"
                 iOS="0, 20, 0, 0"/>

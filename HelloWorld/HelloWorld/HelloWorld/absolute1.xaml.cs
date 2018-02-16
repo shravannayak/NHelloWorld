@@ -32,8 +32,8 @@ namespace HelloWorld
             await btn.ScaleTo(1, 50, Easing.SpringOut);
             streamPdf = GetPdf();
             pdfView.LoadDocument(streamPdf);
-           // if (Device.OS == TargetPlatform.Android)
-              //  DependencyService.Get<ISave>().Save("example.pdf", "application/pdf", streamPdf);
+            //if (Device.OS == TargetPlatform.Android)
+                  DependencyService.Get<ISave>().Save("example.pdf", "application/pdf", streamPdf);
             
             close.IsVisible = true;
          
